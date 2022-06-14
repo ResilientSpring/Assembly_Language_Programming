@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <stdio.h>
 extern "C" int fcnsum(int[], int);
 extern "C" void thesum(int*, int[], int);
@@ -13,3 +12,8 @@ int main() {
 
 	return 0;
 }
+
+
+// Reference:
+// What is "stdafx.h" used for in Visual Studio?
+// https://stackoverflow.com/questions/4726155/what-is-stdafx-h-used-for-in-visual-studio
