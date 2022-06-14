@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <stdio.h>
 extern "C" int fcnsum(int[], int);
 extern "C" void thesum(int*, int[], int);
