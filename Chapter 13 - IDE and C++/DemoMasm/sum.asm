@@ -4,7 +4,7 @@
 ;	R8: Number of integers in the array
 ;	Supports X64 Calling Convention
 
-	   .code
+	    .code
 thesum  proc              ; Subroutine thesum entry point
 		mov EAX, [RDX]    ; Load first value.
 		dec R8            ; Decrement number of integers.
