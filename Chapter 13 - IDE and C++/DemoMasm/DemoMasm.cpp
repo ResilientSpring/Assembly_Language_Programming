@@ -12,3 +12,8 @@ int main() {
 
 	return 0;
 }
+
+
+// Reference:
+// What is "stdafx.h" used for in Visual Studio?
+// https://stackoverflow.com/questions/4726155/what-is-stdafx-h-used-for-in-visual-studio
