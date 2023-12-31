@@ -13,3 +13,5 @@ main proc
      ret
 main endp
      end
+
+; Reference: https://www.wikihow.com/Use-MASM-in-Visual-Studio-2022
