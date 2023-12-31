@@ -8,4 +8,8 @@ num2 sdword ?  ; second number
      .code
 main proc
      mov num1,5     ; initialize num1 with 5
-     mov eax, num1  ; load eax with contents
+     mov eax, num1  ; load eax with contents of num1
+     mov num2, eax  ; store eax in num2
+     ret
+main endp
+     end
