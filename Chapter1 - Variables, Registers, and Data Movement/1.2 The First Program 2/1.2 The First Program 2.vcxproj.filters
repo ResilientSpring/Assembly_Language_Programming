@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="intimate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="intimate.c">
       <Filter>Source Files</Filter>
     </ClCompile>

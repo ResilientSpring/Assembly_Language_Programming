@@ -141,7 +141,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="intimate.c" />
-    <ClCompile Include="intimate.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="intimate.asm" />
