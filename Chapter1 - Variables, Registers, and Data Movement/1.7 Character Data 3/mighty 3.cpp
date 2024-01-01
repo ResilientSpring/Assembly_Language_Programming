@@ -12,7 +12,8 @@ int main() {
 
 	__asm {
 	
-		mov letter2, letter1;
+		mov al, letter1;
+		mov letter2, al;
 	
 	}
 	
