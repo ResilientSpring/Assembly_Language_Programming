@@ -10,7 +10,7 @@ letter2 byte ?
      .code
 main proc
      ; letter2 = letter1;
-     mov al, letter1  ; load eax with contents of num1
-     mov letter2, al  ; store eax in num2
+     mov al, letter1  
+     mov letter2, al  
 main endp
      end
