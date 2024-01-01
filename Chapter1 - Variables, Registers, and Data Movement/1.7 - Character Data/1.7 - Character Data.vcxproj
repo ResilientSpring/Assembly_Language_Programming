@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9a2e4a6e-d3d9-4380-97b0-68812bea08dc}</ProjectGuid>
-    <RootNamespace>My1stassemblylanguageprogram</RootNamespace>
+    <ProjectGuid>{30d20661-10e9-4022-aa0b-3cc69e4043e1}</ProjectGuid>
+    <RootNamespace>My17CharacterData</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -140,7 +140,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="intimidating.asm" />
+    <ClCompile Include="mighty.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mighty.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
