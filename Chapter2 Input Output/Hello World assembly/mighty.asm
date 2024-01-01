@@ -3,6 +3,7 @@
 .stack 100h
 
 printf PROTO arg1:Ptr Byte
+
 .data
 
 msg1   byte "Hello World!", 0Ah, 0
