@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.7 - Character Data", "1.7
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.9 Inline Assembly in C", "1.9 Inline Assembly in C\1.9 Inline Assembly in C.vcxproj", "{25C86A8E-5548-4F8D-9788-7386C346547C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.9 Inline Assembly in C 2", "1.9 Inline Assembly in C 2\1.9 Inline Assembly in C 2.vcxproj", "{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{25C86A8E-5548-4F8D-9788-7386C346547C}.Release|x64.Build.0 = Release|x64
 		{25C86A8E-5548-4F8D-9788-7386C346547C}.Release|x86.ActiveCfg = Release|Win32
 		{25C86A8E-5548-4F8D-9788-7386C346547C}.Release|x86.Build.0 = Release|Win32
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Debug|x64.ActiveCfg = Debug|x64
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Debug|x64.Build.0 = Debug|x64
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Debug|x86.Build.0 = Debug|Win32
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Release|x64.ActiveCfg = Release|x64
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Release|x64.Build.0 = Release|x64
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Release|x86.ActiveCfg = Release|Win32
+		{42B6CF23-85BF-4A89-B1D0-65127F0F6BF5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
