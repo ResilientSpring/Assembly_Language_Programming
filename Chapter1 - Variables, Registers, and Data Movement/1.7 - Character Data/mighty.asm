@@ -3,12 +3,15 @@
 .stack 100h
 .data
 
-letter1 byte 'A'  ; first number
-letter2 byte ?  ; second number
+; letter1 = 'A';
+letter1 byte 'A'  
+letter2 byte ? 
+
      .code
 main proc
-     mov eax, letter1  ; load eax with contents of num1
-     mov letter2, eax  ; store eax in num2
+     ; letter2 = letter1;
+     mov al, letter1  ; load eax with contents of num1
+     mov letter2, al  ; store eax in num2
      ret
 main endp
      end
