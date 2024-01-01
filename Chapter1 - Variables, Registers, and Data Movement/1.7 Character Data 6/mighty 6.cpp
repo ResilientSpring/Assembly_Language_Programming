@@ -8,10 +8,10 @@ int main() {
 	__asm {
 
 		mov letter1, 'A'
-		mov ax, letter1
-		mov letter2, ax
+		mov al, letter1
+		mov letter2, al
 
-	}  // error, the 8-bit letter2 cannot swallow the 16-bit ax.
+	}
 
 	cout << "letter2 is " << letter2 << endl;
 
