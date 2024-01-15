@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
 
-
 	int i = 1;
 	int x, y;
 	int a, b;
