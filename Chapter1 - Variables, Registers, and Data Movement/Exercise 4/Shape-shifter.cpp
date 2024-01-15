@@ -8,21 +8,23 @@ int main() {
 	int a, b;
 	int c = 2;
 
+	// int in C++ is 32-bit
+
 	__asm {
 
 	    ;  mov b, c
-		mov al, c
-		mov b, al
+		mov eax, c
+		mov b, eax
 
 	    ;  mov a, b
-		mov al, b
-		mov a, al
+		mov eax, b
+		mov a, eax
 
 		mov y, 1
 		
 	    ; mov x, y
-		mov al, y
-		mov x, al
+		mov eax, y
+		mov x, eax
 
 	}
 
