@@ -4,3 +4,7 @@
 
 .data
 
+i sdword 1
+x sdword y
+
+
