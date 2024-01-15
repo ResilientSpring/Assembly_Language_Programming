@@ -29,4 +29,19 @@ int main() {
 	}
 
 	cout << "a = " << a << "\nb = " << b << "\nc = " << c << "\nx = " << x << "\ny = " << y << "\n";
-}
+
+	__asm {
+
+		mov a, 1
+		mov b, 2
+		mov eax, a
+		mov c, eax
+		mov eax, b
+		mov a, eax
+		mov eax, c
+		mov b, eax
+
+	}
+
+	cout << "\na = " << a << "\nb = " << b << "\nc = " << c << endl;
+ }
