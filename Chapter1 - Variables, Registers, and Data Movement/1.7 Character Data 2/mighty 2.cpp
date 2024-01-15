@@ -13,6 +13,6 @@ int main() {
 
 	}
 
-	cout << grade << "\n";
+	cout << grade2 << "\n";
 
 }
