@@ -32,4 +32,14 @@ int main() {
 
 	cout << "d = " << d << "\na = " << a << "\nb = " << b << endl;
 
+	__asm {
+
+		mov a, '2'
+		mov b, '?'
+		mov al, b
+		mov a, al
+	}
+
+	cout << "\na = " << a << endl;
+
 }
