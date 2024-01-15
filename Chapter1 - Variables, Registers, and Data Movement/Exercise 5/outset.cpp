@@ -8,6 +8,8 @@ int main() {
 	char d = 'E';
 	char e;
 
+	char b;
+
 	__asm {
 
 		mov al, d
@@ -16,5 +18,18 @@ int main() {
 	}
 
 	cout << "e is " << e << endl;
+
+//	d = 'z';
+
+	__asm {
+
+		mov d, 'z'
+		mov al, d
+		mov a, al
+		mov b, al
+
+	}
+
+	cout << "d = " << d << "\na = " << a << "\nb = " << b << endl;
 
 }
