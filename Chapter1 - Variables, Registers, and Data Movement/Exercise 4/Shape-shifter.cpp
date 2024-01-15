@@ -10,17 +10,17 @@ int main() {
 
 	__asm {
 
-		;  mov b, c
+	    ;  mov b, c
 		mov al, c
 		mov b, al
 
-		;  mov a, b
+	    ;  mov a, b
 		mov al, b
 		mov a, al
 
 		mov y, 1
 		
-		; mov x, y
+	    ; mov x, y
 		mov al, y
 		mov x, al
 
