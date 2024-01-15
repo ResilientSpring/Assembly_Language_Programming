@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shape-shifter.asm">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Shape-shifter.cpp">
+    <ClCompile Include="outset.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

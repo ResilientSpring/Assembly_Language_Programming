@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{977d2ae4-abb3-4cd4-9402-2f54ee03bcc4}</ProjectGuid>
-    <RootNamespace>Exercise4</RootNamespace>
+    <ProjectGuid>{7c6ecdd8-efb4-48ea-858b-c3cfb6aa65be}</ProjectGuid>
+    <RootNamespace>Exercise5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -54,7 +54,6 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
   </ImportGroup>
   <ImportGroup Label="Shared">
   </ImportGroup>
@@ -140,13 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="Shape-shifter.asm" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Shape-shifter.cpp" />
+    <ClCompile Include="outset.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
   </ImportGroup>
 </Project>
