@@ -18,4 +18,5 @@ int main() {
 		mov sum, eax;
 	}
 
+	cout << "\nsum is " << sum << endl;
 }
