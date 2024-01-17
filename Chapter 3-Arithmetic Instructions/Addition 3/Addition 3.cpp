@@ -7,9 +7,16 @@ int main() {
 
 	__asm {
 
+		; sum = num1 + num2
 
+		mov sum, 0;
+		mov eax, num1;
+		add sum, eax;
+		mov eax, num2;
+		add sum, eax;
 
 	}
 
+	cout << "sum is " << sum << endl;
 
 }
