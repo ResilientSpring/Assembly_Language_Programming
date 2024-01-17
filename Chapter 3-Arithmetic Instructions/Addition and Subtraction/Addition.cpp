@@ -13,7 +13,8 @@ int main() {
 
 	__asm {
 
-
+		mov eax, num1;
+		add eax, num2;
 
 	}
 
