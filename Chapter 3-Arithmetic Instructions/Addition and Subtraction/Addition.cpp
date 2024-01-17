@@ -15,7 +15,7 @@ int main() {
 
 		mov eax, num1;
 		add eax, num2;
-
+		mov sum, eax;
 	}
 
 }
