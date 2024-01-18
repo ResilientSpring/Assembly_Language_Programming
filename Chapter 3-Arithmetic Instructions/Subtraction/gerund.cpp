@@ -9,10 +9,13 @@ int main() {
 
 		; difference = num2 - num1
 
-		mov eax, num2;   move num2 into eax
+		mov eax, num2;   move num2 to eax
 
+		sub eax, num1;   num1 is subtracted from eax
 
+		mov difference, eax;
 	}
 
+	cout << "difference is " << difference << endl;
 
 }
