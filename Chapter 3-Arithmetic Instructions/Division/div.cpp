@@ -14,8 +14,8 @@ int main() {
 
 		div num2;
 
-
+		mov result, eax; 
 	}
 
-
+	cout << "num1 / num2 = " << result << endl;
 }
