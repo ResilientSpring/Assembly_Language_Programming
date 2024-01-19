@@ -18,3 +18,5 @@ int main() {
 	cout << "num1 x num2 = " << result << endl;
 
 }
+
+// Reference: https://en.wikibooks.org/wiki/X86_Assembly/Arithmetic
