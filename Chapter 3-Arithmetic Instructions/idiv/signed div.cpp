@@ -13,7 +13,9 @@ int main() {
 
 		mov eax, number;   
 
-		cdq;  convert double word into quad word 
+		cdq;  convert double word into quad word
+
+		idiv amount;  divide edx:eax by amount
 
 	}
 
