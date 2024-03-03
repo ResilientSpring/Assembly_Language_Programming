@@ -20,4 +20,6 @@ int main() {
 		mov answer, eax; 
 	}
 
+	cout << answer << endl;
+
 }
