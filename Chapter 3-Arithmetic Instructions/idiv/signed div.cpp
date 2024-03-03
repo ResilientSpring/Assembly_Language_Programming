@@ -9,7 +9,11 @@ int main() {
 
 	__asm {
 
-		
+		; answer = number / amount
+
+		mov eax, number;   
+
+		cdq;  convert double word into quad word 
 
 	}
 
