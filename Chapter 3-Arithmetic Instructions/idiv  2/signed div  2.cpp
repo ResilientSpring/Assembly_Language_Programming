@@ -25,6 +25,10 @@ int main() {
 		idiv amount;  divide(edx : eax) by amount
 
 		mov answer, eax;
+
+		mov quotient, eax;
+
+		mov remainder, edx;
 	}
 
 	cout << answer << endl;
