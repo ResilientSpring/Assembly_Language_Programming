@@ -3,6 +3,9 @@ using namespace std;
 
 int main() {
 
+	int quotient;
+	int remainder;
+
 	int answer;
 	int number;
 	int amount;
@@ -19,11 +22,12 @@ int main() {
 
 		cdq;  convert double word into quad word
 
-			idiv amount;  divide(edx : eax) by amount
+		idiv amount;  divide(edx : eax) by amount
 
-			mov answer, eax;
+		mov answer, eax;
 	}
 
 	cout << answer << endl;
-
+	cout << "Quotient: " << quotient << endl;
+	cout << "Remainder: " << remainder << endl;
 }
