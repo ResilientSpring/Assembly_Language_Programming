@@ -12,7 +12,7 @@ int main() {
 
 		mov eax, num1;
 
-		add eax, num2; add num2 to eax
+		add eax, num2;   add num2 to eax
 
 		mov sum, eax; 
 
