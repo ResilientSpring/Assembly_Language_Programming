@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-	int sum, num1, num2;
+	int diff, num1, num2;
 
 	__asm {
 
@@ -14,9 +14,9 @@ int main() {
 
 		sub eax, num2;   subtract num2 from eax
 
-		mov sum, eax;
+		mov diff, eax;
 
 	}
 
-	cout << "7 - 5 = " << sum << endl;
+	cout << "7 - 5 = " << diff << endl;
 }
