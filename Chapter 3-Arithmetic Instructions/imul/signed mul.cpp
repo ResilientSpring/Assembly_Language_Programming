@@ -13,7 +13,9 @@ int main() {
 
 		imul num2;  Then, the number to be multiplied by is placed into a register or memory outside the CPU.
 
-
+		mov product, eax;  The lower-order bits of the product are placed into the eax register.
 	}
+
+	cout << "2 x 5 = " << product << endl;
 
 }
