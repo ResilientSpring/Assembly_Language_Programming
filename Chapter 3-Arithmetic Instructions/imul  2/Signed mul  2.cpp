@@ -13,9 +13,12 @@ int main() {
 
 		// The way the one-operand version of the signed multiplication instruction works is that 
 		// the eax register must first be loaded with the number that needs to be multiplied.
+		mov eax, num1;
 
+		imul num2; Then, the number to be multiplied by is placed into a register or memory outside CPU.
 
-
+		mov product, eax; The low-order bits of the product are placed into the eax register.
 	}
 
+	cout << "-2 x 5 = " << product << endl;
 }
