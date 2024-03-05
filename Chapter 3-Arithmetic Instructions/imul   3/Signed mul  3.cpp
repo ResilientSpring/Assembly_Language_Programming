@@ -12,7 +12,7 @@ int main() {
 
 		mov eax, num1;
 
-		imul num2;  // Note that with the one-operand imul instruction, there is no provision for an immeidate operand.
+		imul num2;  // Note that with the one-operand imul instruction, there is no provision for an immeidate operand and that the use of the eax register for the multiplicand is implied.
 
 		mov product, eax; 
 
