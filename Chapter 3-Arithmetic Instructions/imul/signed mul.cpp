@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
 
+	// Note that with the one-operand imul instruction, there is no provision for an immediate operand.
 	int product, num1 = 2, num2 = 5;
 
 	__asm {
