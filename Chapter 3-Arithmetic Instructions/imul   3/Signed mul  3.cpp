@@ -7,9 +7,16 @@ int main() {
 
 	__asm {
 
-		// The way the one-operand version of the signed multiplication instruction works is that
-		// the eax register register must first be loaded with the number that needs to be multiplied.
-		mov 
+		mov num1, -2;
+		mov num2, 5;
+
+		mov eax, num1;
+
+		imul num2; 
+
+		mov product, eax; 
 
 	}
+
+	cout << "-2 x 5 = " << product << endl;
 }
