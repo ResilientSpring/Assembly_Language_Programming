@@ -7,7 +7,7 @@ int main() {
 
 	__asm {
 
-
+		; product = num1 * num2
 
 	}
 
