@@ -11,6 +11,9 @@ int main() {
 
 		mov eax, num1;  eax register must first be loaded with the number that needs to be multiplied.
 
+		imul num2;  Then, the number to be multiplied by is placed into a register or memory outside the CPU.
+
+
 	}
 
 }
