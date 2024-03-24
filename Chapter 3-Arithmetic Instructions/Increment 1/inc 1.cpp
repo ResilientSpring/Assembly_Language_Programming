@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-	int x;
+	int x;                // Need not initialize now.
 	int y = 2;
 
 	// x = y++;
