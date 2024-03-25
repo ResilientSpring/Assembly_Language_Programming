@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "negate", "negate\negate.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Increment 1", "Increment 1\Increment 1.vcxproj", "{BB56CFC3-2CE6-4001-9507-B21D8F670989}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "negation", "negation\negation.vcxproj", "{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{BB56CFC3-2CE6-4001-9507-B21D8F670989}.Release|x64.Build.0 = Release|x64
 		{BB56CFC3-2CE6-4001-9507-B21D8F670989}.Release|x86.ActiveCfg = Release|Win32
 		{BB56CFC3-2CE6-4001-9507-B21D8F670989}.Release|x86.Build.0 = Release|Win32
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Debug|x64.ActiveCfg = Debug|x64
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Debug|x64.Build.0 = Debug|x64
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Debug|x86.Build.0 = Debug|Win32
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Release|x64.ActiveCfg = Release|x64
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Release|x64.Build.0 = Release|x64
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Release|x86.ActiveCfg = Release|Win32
+		{4BAB4C5E-F2A1-4733-AE98-320D35730BE7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
