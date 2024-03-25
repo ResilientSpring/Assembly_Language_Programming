@@ -9,7 +9,9 @@ int main() {
 
 	__asm {
 
+		; x = -y + z;
 
+		mov ea
 
 	}
 
