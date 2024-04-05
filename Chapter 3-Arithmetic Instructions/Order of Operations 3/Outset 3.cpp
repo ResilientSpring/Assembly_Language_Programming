@@ -12,9 +12,9 @@ int main() {
 		mov num1, 20;
 		mov num2, 11;
 
-		sub num1, 3;     // Note: num1 - (-3) 
-		mov eax, num1;
-		add eax, num2;
+		mov eax, (-3); 
+		imul num2;
+		add eax, num1;
 		mov answer, eax;
 	}
 
