@@ -12,7 +12,7 @@ int main() {
 
 		mov eax, num1;
 
-		div num2;   This divides the value in the dividend register(s)by divisor [1]
+		div num2;   This divides the value in the dividend register(s) by divisor [1]
 
 		mov result, eax; 
 	}

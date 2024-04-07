@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-	int result, num3, num4;
+	int quotient, remainder, num3, num4;
 
 	__asm {
 
@@ -13,13 +13,15 @@ int main() {
 		mov num4, 11;
 
 		sub num4, 2;
-
+		mov eax, num3;
+		cdq;
+		idiv num4;
+		mov quotient, eax;
+		mov remainder, edx;
 	}
 
-	cout << "answer is " << result << endl;
-
-
-	// Verify the answer by implementing in C++
+	cout << "The quotient is " << quotient << endl;
+	cout << "The remainder is " << remainder << endl;
 
 
 }
