@@ -16,7 +16,7 @@ int main() {
 		mov eax, num3;
 		cdq;
 		idiv num4;
-
+		mov result, eax;
 
 	}
 
