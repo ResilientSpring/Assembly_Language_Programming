@@ -13,6 +13,10 @@ int main() {
 		mov num4, 11;
 
 		sub num4, 2;
+		mov eax, num3;
+		cdq;
+		idiv num4;
+
 
 	}
 
