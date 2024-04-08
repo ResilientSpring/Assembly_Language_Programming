@@ -19,7 +19,7 @@ int main() {
 		mov z, 4;
 
 		// z++
-		inc z;
+		// inc z;
 
 		// x * y
 		mov eax, x;
