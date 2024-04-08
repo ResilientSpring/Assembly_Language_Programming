@@ -31,6 +31,9 @@ int main() {
 		// [(x * y) + (-w)] - z
 		sub eax, z;
 
+		// z++
+		inc z;
+
 		// v = [(x * y) + (-w)] - z
 		mov v, eax;
 
