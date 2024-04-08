@@ -11,7 +11,7 @@ int main() {
 
 		mov w, 1;
 
-		// -w
+		// -(w)
 		neg w;
 		
 		mov x, 2;
@@ -25,7 +25,8 @@ int main() {
 		mov eax, x;
 		imul y;
 
-
+		// (x * y) + (-w)
+		add eax, w;
 
 	}
 
