@@ -15,7 +15,8 @@ int main() {
 		mov y, 3;
 		mov z, 4;
 
-
+		mov eax, x;
+		imul y;
 
 	}
 
