@@ -28,6 +28,9 @@ int main() {
 		// (x * y) + (-w)
 		add eax, w;
 
+		// [(x * y) + (-w)] - z
+
+
 	}
 
 }
