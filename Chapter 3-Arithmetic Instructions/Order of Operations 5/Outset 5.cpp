@@ -29,8 +29,12 @@ int main() {
 		add eax, w;
 
 		// [(x * y) + (-w)] - z
+		sub eax, z;
 
+		// v = [(x * y) + (-w)] - z
+		mov v, eax;
 
 	}
 
+	cout << "v is " << v << endl;
 }
