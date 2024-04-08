@@ -7,7 +7,7 @@ int main() {
 
 	__asm {
 
-
+		// v = -w + x * y - z++;
 
 	}
 
