@@ -11,7 +11,7 @@ int main() {
 	// number is still 5.
 	__asm {
 
-		cmp number, 5;
+		cmp number, 0;
 		je then_01;
 		jne then_02;
 	    then_01: dec number;
