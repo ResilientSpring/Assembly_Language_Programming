@@ -15,8 +15,6 @@ int main() {
 	cout << "number is " << number << endl;
 
 	// Remember, number is now 4.
-
-
 	__asm {
 
 	if01: cmp number, 5;   compare number and five
