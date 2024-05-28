@@ -23,7 +23,7 @@ int main() {
 		jne then_02;
 	    then_01: ;
 	    then_02: inc count;
-		add amount, 2;
+		         add amount, 2;
 	}
 
 	cout << "amount is " << amount << "; count is " << count << endl;
