@@ -17,7 +17,7 @@ int main() {
 
 	__asm {
 
-	if01: cmp number, 5;   compare number and zero
+	if01: cmp number, 5;   compare number and five
 	then01 : dec number;   decrement number by one
 	jne endif01;     jump not equal to endif01
 	endif01 : nop; end if, no operation
