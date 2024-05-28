@@ -14,6 +14,7 @@ int main() {
 
 	cout << "number is " << number << endl;
 
+	// Remember, number is now 4.
 
 	__asm {
 
