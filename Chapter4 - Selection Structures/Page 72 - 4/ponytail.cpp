@@ -12,10 +12,9 @@ int main() {
 	__asm {
 
 		cmp number, 0;
-		je then_01;
 		jne then_02;
 	    then_01: dec number;
-	    then_02: ;
+	    then_02:;
 	}
 
 	cout << "number is " << number << endl;
