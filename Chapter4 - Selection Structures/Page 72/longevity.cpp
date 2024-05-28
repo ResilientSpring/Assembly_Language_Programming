@@ -18,5 +18,5 @@ int main() {
 		end_if_01: nop;
 	}
 
-	cout << number << endl;
+	cout << "number is " << number << endl;
 }
