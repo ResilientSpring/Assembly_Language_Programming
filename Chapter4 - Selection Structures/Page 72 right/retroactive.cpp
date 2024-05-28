@@ -5,7 +5,7 @@ int main() {
 
 	int count = 0, amount = 8;
 
-	if (amount != 0) {
+	if (amount != 1) {
 
 		count++;
 		amount = amount + 2;
@@ -13,13 +13,18 @@ int main() {
 		
 	cout << "amount is " << amount << "; count is " << count << endl;
 	
+	count = 0;
+	amount = 8;
+
 	__asm {
 
-		cmp number, 0;
+		cmp amount, 1;
+		je then_01;
 		jne then_02;
-	    then_01: dec number;
-	    then_02:;
+	    then_01: ;
+	    then_02: inc count;
+		add amount, 2;
 	}
 
-	cout << "number is " << count << endl;
+	cout << "amount is " << amount << "; count is " << count << endl;
 }
