@@ -15,7 +15,7 @@ int main() {
 		je then_01;
 		jne then_02;
 	    then_01: dec number;
-	    then_02: nop;
+	    then_02: mov number, 1;
 	}
 
 	cout << "number is " << number << endl;
