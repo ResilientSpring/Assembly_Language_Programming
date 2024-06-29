@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0a4c20ff-1396-4e85-b31c-e94981092bf9}</ProjectGuid>
-    <RootNamespace>Page79</RootNamespace>
+    <ProjectGuid>{4a503a7a-8d5a-4fa0-b86d-b18df2e215aa}</ProjectGuid>
+    <RootNamespace>My43IfThenElseStructure</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="proctor.cpp" />
+    <ClCompile Include="page 80.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
