@@ -7,8 +7,10 @@ int main() {
 
 	__asm {
 
-		mov eax, x; 
-		cmp eax, y;
+		    mov eax, x; 
+		if01:	cmp eax, y;
+
+
 
 
 
