@@ -7,6 +7,9 @@ int main() {
 
 	__asm {
 
+		mov eax, x; 
+		cmp eax, y;
+
 
 
 	}
