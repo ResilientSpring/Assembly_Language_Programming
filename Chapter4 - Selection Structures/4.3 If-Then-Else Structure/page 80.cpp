@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-	int x, y;
+	int x = 22, y = 11;
 
 	/*
 	     if(x >= y)
