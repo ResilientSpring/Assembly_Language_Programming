@@ -20,6 +20,7 @@ int main() {
 		jnge then02;
 	then01: dec eax;
 		mov x, eax;
+		jmp endif;
 	then02: dec y;
 	endif: nop;
 
