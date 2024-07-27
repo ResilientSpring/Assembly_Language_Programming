@@ -19,6 +19,7 @@ int main() {
 			jge then01;
 			jnge then02;			
 		then01: dec eax;
+			mov x, eax;
 		then02: dec y;
 
 
