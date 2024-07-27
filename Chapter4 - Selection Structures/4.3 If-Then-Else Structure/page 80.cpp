@@ -17,11 +17,9 @@ int main() {
 		    mov eax, x; 
 		if01:	cmp eax, y;
 			jge then01;
-			
+			jnge then02;			
 		then01: dec eax;
-
-
-
+		then02: dec y;
 
 
 	}
