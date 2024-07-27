@@ -16,6 +16,8 @@ int main() {
 
 		    mov eax, x; 
 		if01:	cmp eax, y;
+			    jg 
+			then01:
 
 
 
