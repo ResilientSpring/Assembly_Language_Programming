@@ -21,8 +21,7 @@ int main() {
 		then01: dec eax;
 			mov x, eax;
 		then02: dec y;
-
-
 	}
 
+	printf("x is now %d, and y is now %d \n", x, y);
 }
