@@ -68,7 +68,7 @@ int main() {
 
 		cmp x, 100;
 		jle then09;
-		jg then08;
+		jg then12;
 	then09: cmp x, 50;
 		jl then10;
 		jge then11;
@@ -76,7 +76,7 @@ int main() {
 		jmp endif06;
 	then11: mov y, 0;
 		jmp endif06;
-	then08: dec y;
+	then12: dec y;
 		jmp endif05;
 
 	endif06: nop;
