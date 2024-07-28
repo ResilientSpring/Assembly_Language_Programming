@@ -61,4 +61,28 @@ int main() {
 	}
 
 	printf("x is now %d, while y is now %d. \n", x, y);
+
+	x = 102, y = 11;
+
+	__asm {
+
+		cmp x, 100;
+		jle then09;
+		jg then08;
+	then09: cmp x, 50;
+		jl then10;
+		jge then11;
+	then010: inc y;
+		jmp endif06;
+	then11: mov y, 0;
+		jmp endif06;
+	then08: dec y;
+		jmp endif05;
+
+	endif06: nop;
+	endif05: nop;
+
+	}
+
+	printf("x is now %d, while y is now %d. \n", x, y);
 }
