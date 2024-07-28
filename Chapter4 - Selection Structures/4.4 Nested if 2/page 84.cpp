@@ -20,6 +20,7 @@ int main() {
 
 		cmp x, 100;
 		jle then01;
+		jg then04;
 	then01: cmp x, 50;
 		jl then02;
 		jle then03;
