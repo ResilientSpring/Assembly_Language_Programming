@@ -29,6 +29,7 @@ int main() {
 	then03: mov y, 0;
 		jmp endif02;
 	then04: dec y;
+		jmp endif01;
 
 	endif02: nop;
 	endif01: nop;
