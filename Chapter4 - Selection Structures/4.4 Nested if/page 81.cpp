@@ -20,8 +20,13 @@ int main() {
 
 		cmp x, 50;
 		jl then01;
+		jge then02;
 	the01: mov y, 0;
 		jmp endif01;
+	then02: cmp x, 200;
+		jle then03;
+	then03: mov y, 0;
+
 	endif01: nop;
 	}
 
