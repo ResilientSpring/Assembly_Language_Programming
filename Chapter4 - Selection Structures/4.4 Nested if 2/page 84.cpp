@@ -23,10 +23,12 @@ int main() {
 		jg then04;
 	then01: cmp x, 50;
 		jl then02;
-		jle then03;
+		jge then03;
 	then02: inc y;
 	then03: mov y, 0;
 	then04: dec y;
+
+	endif01: nop;
 
 	}
 
