@@ -25,9 +25,12 @@ int main() {
 		jl then02;
 		jge then03;
 	then02: inc y;
+		jmp endif02;
 	then03: mov y, 0;
+		jmp endif02;
 	then04: dec y;
 
+	endif02: nop;
 	endif01: nop;
 
 	}
