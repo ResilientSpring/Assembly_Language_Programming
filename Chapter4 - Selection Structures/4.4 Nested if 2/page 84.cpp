@@ -44,19 +44,19 @@ int main() {
 
 		cmp x, 100;
 		jle then05;
-		jg then04;
+		jg then08;
 	then05: cmp x, 50;
 		jl then06;
-		jge then03;
+		jge then07;
 	then06: inc y;
-		jmp endif02;
-	then03: mov y, 0;
-		jmp endif02;
-	then04: dec y;
-		jmp endif01;
+		jmp endif04;
+	then07: mov y, 0;
+		jmp endif04;
+	then08: dec y;
+		jmp endif03;
 
-	endif02: nop;
-	endif01: nop;
+	endif04: nop;
+	endif03: nop;
 
 	}
 
