@@ -36,7 +36,7 @@ int main() {
 
 	}
 
-	printf("x is now %d, while y is now %d", x, y);
+	printf("x is now %d, while y is now %d. \n", x, y);
 
 	x = 52, y = 11;
 
@@ -60,5 +60,5 @@ int main() {
 
 	}
 
-	printf("x is now %d, while y is now %d", x, y);
+	printf("x is now %d, while y is now %d. \n", x, y);
 }
