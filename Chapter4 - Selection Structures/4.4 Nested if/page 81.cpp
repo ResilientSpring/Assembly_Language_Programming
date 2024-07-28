@@ -27,6 +27,8 @@ int main() {
 		jle then03;
 		jl then04;
 	then03: mov y, 0;
+		jmp endif01;
+	then04: dec y;
 
 	endif01: nop;
 	}
