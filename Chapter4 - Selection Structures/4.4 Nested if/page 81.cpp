@@ -18,9 +18,11 @@ int main() {
 
 	__asm {
 
-		cmp eax, 50;
-		jl 
-
+		cmp x, 50;
+		jl then01;
+	the01: mov y, 0;
+		jmp endif01;
+	endif01: nop;
 	}
 
 }
