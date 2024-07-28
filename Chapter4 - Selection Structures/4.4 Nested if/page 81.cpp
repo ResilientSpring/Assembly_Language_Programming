@@ -33,4 +33,5 @@ int main() {
 	endif01: nop;
 	}
 
+	printf("x is now %d, y is now %d. \n", x, y);
 }
