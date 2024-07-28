@@ -16,4 +16,16 @@ int main() {
 
 	int x = 22, y = 11;
 
+	__asm {
+
+		cmp x, 100;
+		jle then01;
+	then01: cmp x, 50;
+		jl then02;
+		jle then03;
+	then02: inc y;
+	then03: mov y, 0;
+
+	}
+
 }
