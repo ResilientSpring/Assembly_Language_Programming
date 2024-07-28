@@ -46,7 +46,7 @@ int main() {
 		jmp endif02;
 	then06: cmp x, 200;
 		jle then07;
-		jl then08;
+		jg then08;
 	then07: mov y, 0;
 		jmp endif02;
 	then08: dec y;
