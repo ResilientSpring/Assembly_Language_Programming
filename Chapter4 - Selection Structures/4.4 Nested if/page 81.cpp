@@ -61,18 +61,18 @@ int main() {
 	__asm {
 
 		cmp x, 50;
-		jl then05;
-		jge then06;
-	then05: mov y, 0;
+		jl then09;
+		jge then10;
+	then09: mov y, 0;
 		jmp endif02;
-	then06: cmp x, 200;
-		jle then07;
-		jg then08;
-	then07: mov y, 0;
-		jmp endif02;
-	then08: dec y;
+	then10: cmp x, 200;
+		jle then11;
+		jg then12;
+	then11: mov y, 0;
+		jmp endif03;
+	then12: dec y;
 
-	endif02: nop;
+	endif03: nop;
 	}
 
 	printf("x is now %d, y is now %d. \n", x, y);
