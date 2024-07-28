@@ -30,4 +30,5 @@ int main() {
 
 	}
 
+	printf("x is now %d, while y is now %d", x, y);
 }
