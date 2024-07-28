@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.3 If-Then-Else Structure"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.3 If-Then-Else Structure 2", "4.3 If-Then-Else Structure 2\4.3 If-Then-Else Structure 2.vcxproj", "{2A64AC67-98ED-46C6-95FA-A649CF4A5EFA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.4 Nested if", "4.4 Nested if\4.4 Nested if.vcxproj", "{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{2A64AC67-98ED-46C6-95FA-A649CF4A5EFA}.Release|x64.Build.0 = Release|x64
 		{2A64AC67-98ED-46C6-95FA-A649CF4A5EFA}.Release|x86.ActiveCfg = Release|Win32
 		{2A64AC67-98ED-46C6-95FA-A649CF4A5EFA}.Release|x86.Build.0 = Release|Win32
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Debug|x64.ActiveCfg = Debug|x64
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Debug|x64.Build.0 = Debug|x64
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Debug|x86.Build.0 = Debug|Win32
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Release|x64.ActiveCfg = Release|x64
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Release|x64.Build.0 = Release|x64
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Release|x86.ActiveCfg = Release|Win32
+		{8B77B9D1-B4A3-4E01-B2C2-A3E0663BCB44}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
