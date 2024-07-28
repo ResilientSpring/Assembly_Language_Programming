@@ -14,9 +14,12 @@ int main() {
 	
 	*/
 
+	int x = 22, y = 11;
+
 	__asm {
 
-
+		cmp eax, 50;
+		jl 
 
 	}
 
