@@ -27,6 +27,7 @@ int main() {
 	then02: inc y;
 	then03: mov y, 0;
 	then04: dec y;
+
 	}
 
 }
