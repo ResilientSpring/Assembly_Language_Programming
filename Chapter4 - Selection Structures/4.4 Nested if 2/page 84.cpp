@@ -72,7 +72,7 @@ int main() {
 	then09: cmp x, 50;
 		jl then10;
 		jge then11;
-	then010: inc y;
+	then10: inc y;
 		jmp endif06;
 	then11: mov y, 0;
 		jmp endif06;
