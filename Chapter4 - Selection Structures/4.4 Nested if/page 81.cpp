@@ -55,4 +55,25 @@ int main() {
 	}
 
 	printf("x is now %d, y is now %d. \n", x, y);
+
+	x = 202, y = 11;
+
+	__asm {
+
+		cmp x, 50;
+		jl then05;
+		jge then06;
+	then05: mov y, 0;
+		jmp endif02;
+	then06: cmp x, 200;
+		jle then07;
+		jg then08;
+	then07: mov y, 0;
+		jmp endif02;
+	then08: dec y;
+
+	endif02: nop;
+	}
+
+	printf("x is now %d, y is now %d. \n", x, y);
 }
