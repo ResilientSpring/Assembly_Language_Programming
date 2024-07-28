@@ -46,9 +46,9 @@ int main() {
 		jle then05;
 		jg then04;
 	then05: cmp x, 50;
-		jl then02;
+		jl then06;
 		jge then03;
-	then02: inc y;
+	then06: inc y;
 		jmp endif02;
 	then03: mov y, 0;
 		jmp endif02;
