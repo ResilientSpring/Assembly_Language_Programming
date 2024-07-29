@@ -25,7 +25,7 @@ int main() {
 		cmp w, 3;
 		je case03;
 
-		jmp default03;
+		jmp default01;
 
 	case01: inc x;
 		jmp endif01;
