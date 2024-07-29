@@ -28,12 +28,18 @@ int main() {
 		cmp w, 3;
 		je case03;
 
+		cmp w, 4;
+		je case04;
+
 		jmp default01;
 
 	case01: inc x;
 		jmp endif01;
 
 	case03: inc y;
+		jmp endif01;
+
+	case04: mov x, 40;
 		jmp endif01;
 
 	default01: inc z;
