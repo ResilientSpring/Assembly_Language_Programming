@@ -28,6 +28,8 @@ int main() {
 	case03: inc y;
 		jmp endif01;
 
+	default01: inc z;
+
 	endif01: nop;
 
 	}
