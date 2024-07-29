@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.5 Case Structure 4-0-1", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.5 Case Structure 4-2", "4.5 Case Structure 4-2\4.5 Case Structure 4-2.vcxproj", "{463F7C18-FD81-403D-AA6A-260DBB8C9075}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 5", "Exercise 5\Exercise 5.vcxproj", "{73D00773-1D62-4ABB-8C51-41C9DF4C5886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{463F7C18-FD81-403D-AA6A-260DBB8C9075}.Release|x64.Build.0 = Release|x64
 		{463F7C18-FD81-403D-AA6A-260DBB8C9075}.Release|x86.ActiveCfg = Release|Win32
 		{463F7C18-FD81-403D-AA6A-260DBB8C9075}.Release|x86.Build.0 = Release|Win32
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Debug|x64.ActiveCfg = Debug|x64
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Debug|x64.Build.0 = Debug|x64
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Debug|x86.ActiveCfg = Debug|Win32
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Debug|x86.Build.0 = Debug|Win32
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Release|x64.ActiveCfg = Release|x64
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Release|x64.Build.0 = Release|x64
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Release|x86.ActiveCfg = Release|Win32
+		{73D00773-1D62-4ABB-8C51-41C9DF4C5886}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
