@@ -16,8 +16,19 @@ int main() {
 	*/
 	__asm {
 
+		cmp w, 1;
+		je case01;
 
+		cmp w, 2;
+		jmp case03;
 
+	case01: inc x;
+		jmp endif01;
+
+	case03: inc y;
+		jmp endif01;
+
+	endif01: nop;
 
 	}
 
