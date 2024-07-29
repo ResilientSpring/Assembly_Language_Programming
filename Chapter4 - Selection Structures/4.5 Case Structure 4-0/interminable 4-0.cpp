@@ -2,7 +2,7 @@
 
 int main() {
 
-	int w = 0, x = 0, y = 1, z = 2;
+	int w = 4, x = 0, y = 1, z = 2;
 
 	/*
 	   switch(w){
@@ -12,7 +12,7 @@ int main() {
 		 case 2:
 		 case 3: y++;
 				 break;
-         case 4: y = 55;
+         case 4: x = 40;
 		         break;
 		 default: z++;
 	   }
