@@ -21,7 +21,7 @@ int main() {
 	__asm {
 
 		cmp number, 0;
-		je
+		je 
 
 	}
 }
