@@ -16,7 +16,7 @@ int main() {
 	
 	*/
 
-
+	int number = 4, count;
 
 
 }
