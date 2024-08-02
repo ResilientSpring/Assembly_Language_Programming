@@ -5,7 +5,7 @@ int main() {
 
 	/*
 	
-	switch number{
+	switch (number){
 	
 		case 0:
 		case 1: count = count + 2;
