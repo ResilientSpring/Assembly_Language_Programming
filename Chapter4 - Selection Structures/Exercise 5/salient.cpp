@@ -23,7 +23,21 @@ int main() {
 		cmp number, 0;
 		je case01;
 
-		case01: add  count, 2;
+		cmp number, 1;
+		je case01;
+
+		cmp number, 2;
+		je case03;
+
+		cmp number, 3;
+		je case03;
+
+	case01: add  count, 2;
+		jmp end_switch;
+
+	case03: sub count, 2;
+
+	end_switch: nop;
 
 	}
 }
