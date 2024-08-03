@@ -16,7 +16,7 @@ int main() {
 	
 	*/
 
-	int number = 4, count;
+	int number = 4, count = 0;
 
 	__asm {
 
@@ -40,4 +40,7 @@ int main() {
 	end_switch: nop;
 
 	}
+
+	printf("number is now %d, while count is now %d. \n", number, count);
+
 }
