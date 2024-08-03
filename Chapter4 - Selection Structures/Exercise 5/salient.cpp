@@ -23,7 +23,7 @@ int main() {
 		cmp number, 0;
 		je case01;
 
-		case01: mov 
+		case01: add  count, 2;
 
 	}
 }
