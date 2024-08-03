@@ -21,7 +21,9 @@ int main() {
 	__asm {
 
 		cmp number, 0;
-		je 
+		je case01;
+
+		case01: mov 
 
 	}
 }
