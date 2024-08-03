@@ -3,17 +3,17 @@
 int main() {
 
 	/*
-	
+
 	switch (number){
-	
+
 		case 0:
 		case 1: count = count + 2;
 				break;
 		case 2:
 		case 3: count = count - 2;
-	
+
 	}
-	
+
 	*/
 
 	int number = 4, count = 0;
@@ -31,6 +31,8 @@ int main() {
 
 		cmp number, 3;
 		je case03;
+
+		jmp end_switch;
 
 	case01: add  count, 2;
 		jmp end_switch;
