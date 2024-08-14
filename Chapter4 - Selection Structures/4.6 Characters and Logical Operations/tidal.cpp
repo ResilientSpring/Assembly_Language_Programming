@@ -4,6 +4,7 @@
 
 int main() {
 
+	int count = 0;
 	char initial;
 
 	printf("Type a character: \n");
@@ -11,15 +12,20 @@ int main() {
 
 	/*
 	
-	if(initial > 'e')
+	if(initial < 'e')
 		count++;
 	
 	*/
 
 	__asm {
 
+		cmp initial, 'e';  Is character 'e' deemed an immediate value ?
 
+		jae then01;   jae is an "unsigned" jump instruction.
 
+		then01: inc count;
+
+	    end01: nop;
 	}
 
 }
