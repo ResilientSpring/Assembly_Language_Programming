@@ -18,8 +18,11 @@ int main() {
 
 	__asm {
 
-		cmp initial, 'e';  Is character 'e' deemed an immediate value?
+		cmp initial, 'e';  Is character 'e' deemed an immediate value ?
 
+		jae then01;   jae is an "unsigned" jump instruction.
+
+		then01: 
 	}
 
 }
