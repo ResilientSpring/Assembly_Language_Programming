@@ -12,7 +12,7 @@ int main() {
 
 	/*
 	
-	if(initial > 'e')
+	if(initial < 'e')
 		count++;
 	
 	*/
