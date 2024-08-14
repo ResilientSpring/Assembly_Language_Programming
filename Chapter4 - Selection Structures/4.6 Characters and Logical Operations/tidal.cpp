@@ -4,6 +4,7 @@
 
 int main() {
 
+	int count = 0;
 	char initial;
 
 	printf("Type a character: \n");
@@ -22,7 +23,7 @@ int main() {
 
 		jae then01;   jae is an "unsigned" jump instruction.
 
-		then01: 
+		then01: inc count;
 	}
 
 }
