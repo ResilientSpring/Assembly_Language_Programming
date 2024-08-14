@@ -24,6 +24,8 @@ int main() {
 		jae then01;   jae is an "unsigned" jump instruction.
 
 		then01: inc count;
+
+	end01: nop;
 	}
 
 }
