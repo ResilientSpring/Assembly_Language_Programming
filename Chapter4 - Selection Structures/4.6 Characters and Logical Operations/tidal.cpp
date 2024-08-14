@@ -25,7 +25,7 @@ int main() {
 
 		then01: inc count;
 
-	end01: nop;
+	    end01: nop;
 	}
 
 }
