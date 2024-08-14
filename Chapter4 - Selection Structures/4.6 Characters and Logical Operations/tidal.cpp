@@ -18,7 +18,7 @@ int main() {
 
 	__asm {
 
-
+		cmp initial, 'e';  Is character 'e' deemed an immediate value?
 
 	}
 
