@@ -1,3 +1,4 @@
+.686
 .MODEL SMALL
 .STACK 100h
 
