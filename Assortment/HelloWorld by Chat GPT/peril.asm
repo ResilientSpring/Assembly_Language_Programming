@@ -5,6 +5,9 @@
     msg db "Hello World!", 0
 
 .code
+
+assume cs:code, ds:data;
+
 main:
     ; Initialize data segment
     mov ax, @data
