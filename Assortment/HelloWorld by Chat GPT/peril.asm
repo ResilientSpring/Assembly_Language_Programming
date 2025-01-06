@@ -3,7 +3,7 @@
 
 .data
 
-    msg db "Hello World!", 0
+    msg db "Hello, World!", 0
 
 .code
 
