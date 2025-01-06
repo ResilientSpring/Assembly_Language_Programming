@@ -24,4 +24,4 @@ main proc
 
 main endp
 
-end 
+end main  ; Mark the end of the program.
