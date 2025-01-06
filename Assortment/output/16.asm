@@ -15,4 +15,9 @@ main:
 
 	LEA DX, result
 	MOV AH, 09h
-	INT 21
+	INT 21h
+
+	ret
+
+main endp
+     end
