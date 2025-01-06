@@ -2,11 +2,10 @@
 .stack 100h
 
 .data
+
     msg db "Hello World!", 0
 
 .code
-
-assume cs:code, ds:data;
 
 main proc
 
