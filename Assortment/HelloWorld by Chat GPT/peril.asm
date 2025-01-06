@@ -16,7 +16,6 @@ main proc
     ; Print the message
     lea dx, msg          ; Load the address of the message into DX
     mov ah, 09h          ; DOS function 09h (Print string)
-    
     int 21h              ; Call DOS interrupt
 
     ; Exit the program
