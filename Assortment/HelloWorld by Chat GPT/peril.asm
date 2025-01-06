@@ -8,7 +8,8 @@
 
 assume cs:code, ds:data;
 
-main:
+main proc
+
     ; Initialize data segment
     mov ax, @data
     mov ds, ax
@@ -22,4 +23,6 @@ main:
     mov ah, 4Ch          ; DOS function 4Ch (Terminate program)
     int 21h              ; Call DOS interrupt
 
-end main
+main endp
+
+end 
