@@ -24,4 +24,13 @@ main proc
 
 main endp
 
-end main  ; Mark the end of the program.
+end main  ; Mark the end of the program.[Notes1]
+
+; Notes:
+; 1. warning L4038: program has no starting address.   
+; 
+; An *.EXE needs an entry point specified in the END statement
+; to tell the linker where to start your program.[1]
+
+;References:
+;1. https://masmforum.com/board/index.php?topic=11504.0
