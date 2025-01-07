@@ -13,10 +13,11 @@ int main() {
 	{
 		for (j = 1; j <= 3; j++) {
 
-
+			sum++;
 
 		}
 	}
 
-
+	printf("sum is now %d. \n", sum);
+	printf("total is now %d. \n", total);
 }
