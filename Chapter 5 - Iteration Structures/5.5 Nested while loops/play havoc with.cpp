@@ -34,7 +34,13 @@ int main() {
 		jle loopBody01;
 		jg  endOf_while_loop01;
 
-			loopBody01:
+	loopBody01:
+		mov j, 1;
+
+	while02:
+		cmp j, 3;
+		jle looBody02;
+		jg  
 
 	endOf_while_loop01: nop;
 
