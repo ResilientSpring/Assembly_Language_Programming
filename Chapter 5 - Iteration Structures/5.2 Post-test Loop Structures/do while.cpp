@@ -20,6 +20,15 @@ int main() {
 
 	__asm {
 
+	do01:
+		add sum, 2;
+		inc i;
+		jmp while01;
+
+	while01:
+
+
+
 
 	}
 
