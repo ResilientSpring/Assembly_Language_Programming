@@ -11,6 +11,8 @@ int main() {
 		sum += 2;
 	}
 
+	/////
+
 	i = 0;
 
 	while (i <= 3) {
@@ -19,6 +21,8 @@ int main() {
 
 		i++;
 	}
+
+	/////
 
 	printf("sum is now %d. \n", sum);
 	printf("total is now %d. \n", total);
