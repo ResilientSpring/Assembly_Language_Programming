@@ -26,7 +26,8 @@ int main() {
 		jmp while01;
 
 	while01:
-
+		cmp i, 3;
+		jle do01;
 
 
 
