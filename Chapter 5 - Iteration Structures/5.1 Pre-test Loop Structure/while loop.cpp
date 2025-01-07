@@ -8,9 +8,15 @@ int main() {
 
 	while (i <= 3) {
 
+		sum += 2;
+
+		i++;
+	}
+
+	__asm {
+
 
 
 	}
-
 
 }
