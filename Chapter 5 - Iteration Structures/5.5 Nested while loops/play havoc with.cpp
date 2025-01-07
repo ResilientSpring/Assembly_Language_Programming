@@ -42,7 +42,13 @@ int main() {
 		jle looBody02;
 		jg  endOf_while_loop02;
 
-		endOf_while_loop01: nop;
+	endOf_while_loop01: 
+		nop;
+
+	loopBody02:
+		inc total;
+		inc j;
+		jmp while02;
 
 	endOf_while_loop02: 
 
