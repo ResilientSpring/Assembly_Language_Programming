@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3 Fixed-Iteration Loop St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 Pre-test Loop Structure", "5.1 Pre-test Loop Structure\5.1 Pre-test Loop Structure.vcxproj", "{9780D8BB-DEB4-48E1-9E6F-49857564735A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 Pre-test Loop Structure 2", "5.1 Pre-test Loop Structure 2\5.1 Pre-test Loop Structure 2.vcxproj", "{96E19162-093E-4953-B416-3B73E703F33C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x64.Build.0 = Release|x64
 		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x86.ActiveCfg = Release|Win32
 		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x86.Build.0 = Release|Win32
+		{96E19162-093E-4953-B416-3B73E703F33C}.Debug|x64.ActiveCfg = Debug|x64
+		{96E19162-093E-4953-B416-3B73E703F33C}.Debug|x64.Build.0 = Debug|x64
+		{96E19162-093E-4953-B416-3B73E703F33C}.Debug|x86.ActiveCfg = Debug|Win32
+		{96E19162-093E-4953-B416-3B73E703F33C}.Debug|x86.Build.0 = Debug|Win32
+		{96E19162-093E-4953-B416-3B73E703F33C}.Release|x64.ActiveCfg = Release|x64
+		{96E19162-093E-4953-B416-3B73E703F33C}.Release|x64.Build.0 = Release|x64
+		{96E19162-093E-4953-B416-3B73E703F33C}.Release|x86.ActiveCfg = Release|Win32
+		{96E19162-093E-4953-B416-3B73E703F33C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
