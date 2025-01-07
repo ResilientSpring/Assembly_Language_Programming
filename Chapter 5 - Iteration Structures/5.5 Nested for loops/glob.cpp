@@ -18,6 +18,13 @@ int main() {
 		}
 	}
 
+	__asm {
+
+
+
+
+	}
+
 	printf("sum is now %d. \n", sum);
 	printf("total is now %d. \n", total);
 }
