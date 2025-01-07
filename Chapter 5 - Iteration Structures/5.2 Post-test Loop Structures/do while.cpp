@@ -15,7 +15,6 @@ int main() {
 
 	} while (i <= 3);
 
-
 	i = 1;
 
 	__asm {
@@ -28,8 +27,9 @@ int main() {
 	while01:
 		cmp i, 3;
 		jle do01;
+		jg  endOfProgram;
 
-
+	endOfProgram: nop;
 
 	}
 
