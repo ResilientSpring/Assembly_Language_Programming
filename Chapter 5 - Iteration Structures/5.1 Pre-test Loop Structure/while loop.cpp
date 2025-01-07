@@ -19,10 +19,14 @@ int main() {
 
 		cmp i, 3;
 		jle loop01;
+		jg  ending;
 
 	loop01:
 		add total, 2;
 		add     i, 1;
+
+	
+	ending: nop;
 
 	}
 
