@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.3 Fixed-Iteration Loop Structures", "5.3 Fixed-Iteration Loop Structures\5.3 Fixed-Iteration Loop Structures.vcxproj", "{6D9DE0C3-0320-4380-AD70-C19982C835B2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.1 Pre-test Loop Structure", "5.1 Pre-test Loop Structure\5.1 Pre-test Loop Structure.vcxproj", "{9780D8BB-DEB4-48E1-9E6F-49857564735A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6D9DE0C3-0320-4380-AD70-C19982C835B2}.Release|x64.Build.0 = Release|x64
 		{6D9DE0C3-0320-4380-AD70-C19982C835B2}.Release|x86.ActiveCfg = Release|Win32
 		{6D9DE0C3-0320-4380-AD70-C19982C835B2}.Release|x86.Build.0 = Release|Win32
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Debug|x64.ActiveCfg = Debug|x64
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Debug|x64.Build.0 = Debug|x64
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Debug|x86.Build.0 = Debug|Win32
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x64.ActiveCfg = Release|x64
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x64.Build.0 = Release|x64
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x86.ActiveCfg = Release|Win32
+		{9780D8BB-DEB4-48E1-9E6F-49857564735A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
