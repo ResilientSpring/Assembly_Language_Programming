@@ -11,6 +11,16 @@ int main() {
 		sum += 2;
 	}
 
+	i = 0;
 
+	while (i <= 3) {
+
+		total += 2;
+
+		i++;
+	}
+
+	printf("sum is now %d. \n", sum);
+	printf("total is now %d. \n", total);
 
 }
