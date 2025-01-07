@@ -40,9 +40,9 @@ int main() {
 	while02:
 		cmp j, 3;
 		jle looBody02;
-		jg  
+		jg  endOf_while_loop02;
 
-	endOf_while_loop01: nop;
+		endOf_while_loop01: nop;
 
 	}
 
