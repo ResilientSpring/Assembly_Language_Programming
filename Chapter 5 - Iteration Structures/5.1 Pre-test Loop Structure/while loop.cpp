@@ -13,9 +13,15 @@ int main() {
 		i++;
 	}
 
+	i = 0;
+
 	__asm {
 
-		
+		cmp i, 3;
+		jle loop01;
+
+	loop01:
+
 
 	}
 
