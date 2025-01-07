@@ -6,6 +6,15 @@ int main() {
 	int sum = 0;
 	int total = 0;
 
+	do
+	{
+
+		sum += 2;
+
+		i++;
+
+	} while (i <= 3);
+
 
 	i = 1;
 
