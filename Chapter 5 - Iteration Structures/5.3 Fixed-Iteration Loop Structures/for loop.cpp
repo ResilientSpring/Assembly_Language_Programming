@@ -12,6 +12,8 @@ int main() {
 		sum++;
 	}
 
+	i = 1;
+
 	__asm {
 
 		mov ecx, 3;
