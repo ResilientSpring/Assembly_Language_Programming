@@ -44,6 +44,7 @@ int main() {
 
 	endOf_while_loop01: 
 		nop;
+		jmp ending;
 
 	loopBody02:
 		inc total;
@@ -54,6 +55,9 @@ int main() {
 
 		inc i;
 		jmp while01;
+
+	ending:
+		nop;
 	}
 
 
