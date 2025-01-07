@@ -19,10 +19,10 @@ int main() {
 
 	while01:	
 		cmp i, 3;
-		jle loop01;
+		jle loopBody01;
 		jg  ending;
 
-	loop01:
+	loopBody01:
 		add total, 2;
 		add     i, 1;
 		jmp while01;
