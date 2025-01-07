@@ -44,6 +44,10 @@ int main() {
 
 		endOf_while_loop01: nop;
 
+	endOf_while_loop02: 
+
+		inc i;
+		jmp while01;
 	}
 
 
