@@ -32,7 +32,7 @@ int main() {
 	while01:
 		cmp i, 2;
 		jle loopBody01;
-		jg  
+		jg  endOf_while_loop01;
 
 			loopBody01:
 
