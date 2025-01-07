@@ -1,5 +1,4 @@
 #include <stdio.h>
-using namespace std;
 
 int main() {
 
@@ -9,7 +8,7 @@ int main() {
 
 	for (i = 1; i <= 3; i++)
 	{
-		sum++;
+		sum += 2;
 	}
 
 	i = 1;
@@ -25,6 +24,6 @@ int main() {
 
 	}
 
-
+	printf("sum is now %d. \n", sum);
 
 }
