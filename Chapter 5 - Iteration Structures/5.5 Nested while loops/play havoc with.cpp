@@ -39,7 +39,7 @@ int main() {
 
 	while02:
 		cmp j, 3;
-		jle looBody02;
+		jle loopBody02;
 		jg  endOf_while_loop02;
 
 	endOf_while_loop01: 
