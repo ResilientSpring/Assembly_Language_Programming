@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Nested Loops", "5.5 Nes
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Nested while loops", "5.5 Nested while loops\5.5 Nested while loops.vcxproj", "{7AC6713C-15E4-4E07-95E0-FE85444B334C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Nested for loops", "5.5 Nested for loops\5.5 Nested for loops.vcxproj", "{33AA3E58-E408-401C-A408-5DA77BC3BDF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{7AC6713C-15E4-4E07-95E0-FE85444B334C}.Release|x64.Build.0 = Release|x64
 		{7AC6713C-15E4-4E07-95E0-FE85444B334C}.Release|x86.ActiveCfg = Release|Win32
 		{7AC6713C-15E4-4E07-95E0-FE85444B334C}.Release|x86.Build.0 = Release|Win32
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Debug|x64.ActiveCfg = Debug|x64
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Debug|x64.Build.0 = Debug|x64
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Debug|x86.Build.0 = Debug|Win32
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Release|x64.ActiveCfg = Release|x64
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Release|x64.Build.0 = Release|x64
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Release|x86.ActiveCfg = Release|Win32
+		{33AA3E58-E408-401C-A408-5DA77BC3BDF0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
