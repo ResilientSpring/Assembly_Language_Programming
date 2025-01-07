@@ -21,7 +21,8 @@ int main() {
 		jle loop01;
 
 	loop01:
-
+		add total, 2;
+		add     i, 1;
 
 	}
 
