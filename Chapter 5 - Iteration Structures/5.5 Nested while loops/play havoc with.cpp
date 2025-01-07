@@ -26,7 +26,17 @@ int main() {
 
 	__asm {
 
-		
+		mov i, 1;
+		mov j, 0;
+
+	while01:
+		cmp i, 2;
+		jle loopBody01;
+		jg  
+
+			loopBody01:
+
+	endOf_while_loop01: nop;
 
 	}
 
