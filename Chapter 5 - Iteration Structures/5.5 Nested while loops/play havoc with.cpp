@@ -2,6 +2,9 @@
 
 int main() {
 
+	int sum = 0;
+	int total = 0;
+
 	int i = 1;
 	int j = 0;
 
