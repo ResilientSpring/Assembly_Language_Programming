@@ -3,10 +3,11 @@ using namespace std;
 
 int main() {
 
+	int i;
 	int sum = 0;
 	int total = 0;
 
-	for (int i = 1; i <= 3; i++)
+	for (i = 1; i <= 3; i++)
 	{
 		sum++;
 	}
