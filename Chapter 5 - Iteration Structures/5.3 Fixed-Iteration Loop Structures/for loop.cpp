@@ -15,6 +15,11 @@ int main() {
 
 		mov ecx, 3;
 
+	for01:
+
+
+	endfor01: nop;
+
 	}
 
 
