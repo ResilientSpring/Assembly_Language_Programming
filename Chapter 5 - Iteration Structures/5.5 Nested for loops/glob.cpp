@@ -20,6 +20,12 @@ int main() {
 
 	__asm {
 
+		mov ecx, 2;
+
+	for01:
+
+		mov i, 1;
+
 
 
 
