@@ -34,6 +34,9 @@ int main() {
 
 		mov ecx, 3;   j <= 3;
 
+	ending:
+		nop;
+
 	}
 
 	printf("sum is now %d. \n", sum);
