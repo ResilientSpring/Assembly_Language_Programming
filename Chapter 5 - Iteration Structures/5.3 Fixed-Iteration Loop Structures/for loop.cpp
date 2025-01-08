@@ -18,7 +18,8 @@ int main() {
 		mov ecx, 3;
 
 	for01:
-
+		add sum, 2;
+		loop for01;
 
 	endfor01: nop;
 
