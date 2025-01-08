@@ -28,11 +28,14 @@ int main() {
 
 		push ecx;
 
+		mov ecx, 3;   j <= 3;
+
 	for02:
 
 		mov j, 1;     j = 1;
 
-		mov ecx, 3;   j <= 3;
+
+
 
 	ending:
 		nop;
