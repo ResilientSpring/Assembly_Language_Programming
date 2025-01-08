@@ -26,6 +26,9 @@ int main() {
 
 		mov i, 1;
 
+		push ecx;
+
+	for02:
 
 
 
