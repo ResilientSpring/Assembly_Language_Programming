@@ -34,6 +34,14 @@ int main() {
 
 		mov j, 1;     j = 1;
 
+		inc total;
+
+		loop for02;
+
+		pop ecx;
+
+		loop for01;
+
 	endOffor01:
 		inc i;
 
