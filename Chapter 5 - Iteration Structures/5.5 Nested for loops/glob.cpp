@@ -34,6 +34,8 @@ int main() {
 
 		mov j, 1;     j = 1;
 
+		loop for02;
+
 	endOffor01:
 		inc i;
 
