@@ -38,6 +38,10 @@ int main() {
 
 		loop for02;
 
+		pop ecx;
+
+		loop for01;
+
 	endOffor01:
 		inc i;
 
