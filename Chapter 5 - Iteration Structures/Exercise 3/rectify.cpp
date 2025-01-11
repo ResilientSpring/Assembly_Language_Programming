@@ -8,8 +8,8 @@ int main() {
 	while (i < 7) {
 
 		counter++;
-		i = i + 2;
 
+		i = i + 2;
 	}
 
 }
