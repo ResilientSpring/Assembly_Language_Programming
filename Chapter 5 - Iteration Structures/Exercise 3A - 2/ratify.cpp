@@ -42,5 +42,6 @@ int main() {
 	}
 
 	printf("The counter is now %d.\n", counter);
+	printf("i is now %d.\n", i);
 
 }
