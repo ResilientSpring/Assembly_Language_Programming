@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.5 Nested while loops 2", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 3", "Exercise 3\Exercise 3.vcxproj", "{BA16DC7D-7396-4D82-8C7B-79E2ACB2D968}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 3A - 2", "Exercise 3A - 2\Exercise 3A - 2.vcxproj", "{E9237396-CF06-4A61-8268-6BFF9BB999A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{BA16DC7D-7396-4D82-8C7B-79E2ACB2D968}.Release|x64.Build.0 = Release|x64
 		{BA16DC7D-7396-4D82-8C7B-79E2ACB2D968}.Release|x86.ActiveCfg = Release|Win32
 		{BA16DC7D-7396-4D82-8C7B-79E2ACB2D968}.Release|x86.Build.0 = Release|Win32
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Debug|x64.ActiveCfg = Debug|x64
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Debug|x64.Build.0 = Debug|x64
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Debug|x86.Build.0 = Debug|Win32
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Release|x64.ActiveCfg = Release|x64
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Release|x64.Build.0 = Release|x64
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Release|x86.ActiveCfg = Release|Win32
+		{E9237396-CF06-4A61-8268-6BFF9BB999A6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
