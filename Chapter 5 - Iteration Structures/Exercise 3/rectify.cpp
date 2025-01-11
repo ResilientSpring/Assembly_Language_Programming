@@ -11,4 +11,7 @@ int main() {
 
 		i = i + 2;
 	}
+
+	printf("The counter is now %d.\n", counter);
+	
 }
