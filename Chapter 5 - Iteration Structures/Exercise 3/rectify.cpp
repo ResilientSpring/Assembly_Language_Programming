@@ -6,6 +6,8 @@ int main() {
 
 	while (i < 7) {
 
+
+
 	}
 
 }
