@@ -25,6 +25,13 @@ int main() {
 
 	printf("The counter is now %d.\n", counter);
 
+	i = 2;
+	counter = 0;
 
+	__asm {
+
+
+
+	}
 
 }
