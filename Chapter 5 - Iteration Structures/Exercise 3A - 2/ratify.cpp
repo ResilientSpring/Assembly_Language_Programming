@@ -17,6 +17,14 @@ int main() {
 	i = 2;
 	counter = 0;
 
+	for (; i < 8; i += 2) {
+
+		counter++;
+
+	}
+
+	printf("The counter is now %d.\n", counter);
+
 
 
 }
