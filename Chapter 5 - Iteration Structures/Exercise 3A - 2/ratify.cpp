@@ -30,8 +30,17 @@ int main() {
 
 	__asm {
 
-		for01: 
+		mov ecx, 3;
+
+	for01: 
+		
+		add i, 2;
+		inc counter;
+
+		loop for01;
 
 	}
+
+	printf("The counter is now %d.\n", counter);
 
 }
