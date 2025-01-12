@@ -21,4 +21,18 @@ int main() {
 		counter++;
 
 	printf("counter is now %d.\n", counter);
+
+	__asm {
+
+		mov ecx, 1;
+
+	for01:
+
+		inc counter;
+
+		inc j;
+
+		loop for01;
+
+	}
 }
