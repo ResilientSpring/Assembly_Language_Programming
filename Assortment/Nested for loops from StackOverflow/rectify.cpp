@@ -12,6 +12,8 @@ int main() {
         }
     }
 
+    printf("eax is now %d.\n", eax);
+
 }
 
 // Source: https://stackoverflow.com/questions/15995696/how-to-create-nested-loops-in-x86-assembly-language
