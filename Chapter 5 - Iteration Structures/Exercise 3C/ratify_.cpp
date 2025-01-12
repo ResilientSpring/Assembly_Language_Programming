@@ -24,7 +24,8 @@ int main() {
 
 	__asm {
 
-		mov ecx, 1;
+		mov ecx, 0;
+		jecxz ending;
 
 	for01:
 
@@ -33,6 +34,9 @@ int main() {
 		inc j;
 
 		loop for01;
+
+	ending:
+		nop;
 
 	}
 }
