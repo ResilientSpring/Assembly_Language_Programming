@@ -20,7 +20,7 @@ int main() {
 
 	__asm {
 
-		mov ecx, 2;
+		mov ecx, 2;   i <= 2;
 
 	for01:
 
