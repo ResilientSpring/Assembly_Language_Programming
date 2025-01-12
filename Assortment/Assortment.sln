@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld by Chat GPT", "H
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops from StackOverflow", "Nested for loops from StackOverflow\Nested for loops from StackOverflow.vcxproj", "{06800AB5-2519-479A-A8CF-5813B7D8592B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops from StackOverflow 2", "Nested for loops from StackOverflow 2\Nested for loops from StackOverflow 2.vcxproj", "{39C98745-0DA5-48B5-894D-9A555AD5FD7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{06800AB5-2519-479A-A8CF-5813B7D8592B}.Release|x64.Build.0 = Release|x64
 		{06800AB5-2519-479A-A8CF-5813B7D8592B}.Release|x86.ActiveCfg = Release|Win32
 		{06800AB5-2519-479A-A8CF-5813B7D8592B}.Release|x86.Build.0 = Release|Win32
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Debug|x64.ActiveCfg = Debug|x64
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Debug|x64.Build.0 = Debug|x64
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Debug|x86.ActiveCfg = Debug|Win32
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Debug|x86.Build.0 = Debug|Win32
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Release|x64.ActiveCfg = Release|x64
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Release|x64.Build.0 = Release|x64
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Release|x86.ActiveCfg = Release|Win32
+		{39C98745-0DA5-48B5-894D-9A555AD5FD7C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
