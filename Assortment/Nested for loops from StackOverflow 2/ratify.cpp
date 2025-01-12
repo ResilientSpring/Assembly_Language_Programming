@@ -18,21 +18,21 @@ int main() {
 
     __asm {
 
-        mov eax, 0;
+        mov a, 0;
 
         mov ecx, 10;
 
     for01:
 
         mov i, 0;  i = 0
-            push ecx;
+        push ecx;
 
         mov ecx, 10;
 
     for02:
 
         mov j, 0;  j = 0
-            push ecx;
+        push ecx;
 
         mov ecx, 10;
 
@@ -40,7 +40,8 @@ int main() {
 
         mov k, 0;  k = 0
 
-            add eax, i;
+        mov eax, a;
+        add eax, i;
         add eax, j;
         add eax, k;
 
