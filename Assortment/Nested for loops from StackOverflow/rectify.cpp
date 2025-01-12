@@ -38,6 +38,22 @@ int main() {
 
     for03:
 
+        mov k, 0;  k = 0
+        
+        add eax, i;
+        add eax, j;
+        add eax, k;
+
+        loop for03;
+
+        pop ecx;
+
+        loop for02;
+
+        pop ecx;
+
+        loop for01;
+
 
     }
 
