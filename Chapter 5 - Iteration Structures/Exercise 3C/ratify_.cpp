@@ -13,4 +13,12 @@ int main() {
 	}
 
 	printf("counter is now %d.\n", counter);
+
+	counter = 0;
+	j = 1;
+
+	for (; j <= 0; j++)
+		counter++;
+
+	printf("counter is now %d.\n", counter);
 }
