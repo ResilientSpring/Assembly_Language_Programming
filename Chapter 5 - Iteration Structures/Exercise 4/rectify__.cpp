@@ -24,7 +24,13 @@ int main() {
 
 		inc i;
 
-		cmp
+	while01:
+
+		mov edx, i;
+
+		cmp edx, y;
+
+		jle do01;
 
 	}
 
