@@ -24,15 +24,11 @@ int main() {
 
 	for01:
 
-		mov i, 1;
-
 		push ecx;
 
 		mov ecx, 3;   j <= 3;
 
 	for02:
-
-		mov j, 1;     j = 1;
 
 		inc total;
 
