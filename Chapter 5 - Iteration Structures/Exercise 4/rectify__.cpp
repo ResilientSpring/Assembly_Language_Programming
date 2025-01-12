@@ -2,7 +2,7 @@
 
 int main() {
 
-	int ans, i, x, y = 10;
+	int ans, i, x = 2, y = 10;
 
 	ans = 0;
 
