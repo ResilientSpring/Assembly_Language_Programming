@@ -44,6 +44,7 @@ int main() {
         add eax, i;
         add eax, j;
         add eax, k;
+        mov a, eax;
 
         loop for03;
 
@@ -54,7 +55,6 @@ int main() {
         pop ecx;
 
         loop for01;
-
 
     }
 
