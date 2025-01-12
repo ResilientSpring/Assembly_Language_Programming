@@ -24,6 +24,8 @@ int main() {
 
     loop01:
 
+        mov i, 0;
+        push ecx;
 
     }
 
