@@ -15,6 +15,14 @@ int main() {
 
 	printf("counter is now %d.\n", counter);
 
+	counter = 0;
+	k = 0;
+
+	for (k = 0; k < 3; k += 3)
+		counter++;
+
+	printf("counter is now %d.\n", counter);
+
 	__asm {
 
 		
