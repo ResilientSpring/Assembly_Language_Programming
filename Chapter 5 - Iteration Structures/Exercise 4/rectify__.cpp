@@ -24,6 +24,11 @@ int main() {
 	printf("x is now %d. \n", x);
 	printf("y is now %d. \n", y);
 
+
+	x = 2, y = 10;
+
+	ans = 0;
+
 	__asm {
 
 		mov ans, 0;
