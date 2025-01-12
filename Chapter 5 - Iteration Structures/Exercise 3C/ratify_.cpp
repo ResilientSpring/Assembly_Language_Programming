@@ -39,4 +39,7 @@ int main() {
 		nop;
 
 	}
+
+	printf("counter is now %d.\n", counter);
+
 }
