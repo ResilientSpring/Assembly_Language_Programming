@@ -22,10 +22,22 @@ int main() {
 
         mov ecx, 10;
 
-    loop01:
+    for01:
 
-        mov i, 0;
+        mov i, 0;  i = 0
         push ecx;
+
+        mov ecx, 10;
+
+    for02:
+
+        mov j, 0;  j = 0
+        push ecx;
+
+        mov ecx, 10;
+
+    for03:
+
 
     }
 
