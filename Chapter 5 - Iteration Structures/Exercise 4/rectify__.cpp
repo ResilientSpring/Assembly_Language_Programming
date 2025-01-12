@@ -59,4 +59,9 @@ int main() {
 
 	}
 
+	printf("ans is now %d. \n", ans);
+	printf("i is now %d. \n", i);
+	printf("x is now %d. \n", x);
+	printf("y is now %d. \n", y);
+
 }
