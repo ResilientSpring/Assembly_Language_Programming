@@ -27,7 +27,7 @@ int main() {
 		mov ans, 0;
 
 		cmp y, 0;
-		jne body01;
+		jne if_body01;
 
 	if_body01:
 		
