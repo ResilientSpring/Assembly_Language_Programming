@@ -14,6 +14,19 @@ int main() {
 
     printf("eax is now %d.\n", eax);
 
+    int i, j, k;
+
+    __asm {
+
+        mov eax, 0;
+
+        mov ecx, 10;
+
+    loop01:
+
+
+    }
+
 }
 
 // Source: https://stackoverflow.com/questions/15995696/how-to-create-nested-loops-in-x86-assembly-language
