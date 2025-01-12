@@ -3,40 +3,43 @@
 int main() {
 
 	int counter = 0;
-	int k = 0;
+	int j = 1;
 
-	while (k < 3) {
+	while (j <= 0) {
 
 		counter++;
 
-		k = k + 3;
-
+		j++;
 	}
 
 	printf("counter is now %d.\n", counter);
 
 	counter = 0;
-	k = 0;
+	j = 1;
 
-	for (k = 0; k < 3; k += 3)
+	for (; j <= 0; j++)
 		counter++;
 
 	printf("counter is now %d.\n", counter);
 
 	__asm {
 
-		mov k, 0;
-		mov counter, 0;
-
-		mov ecx, 1;
+		mov ecx, 0;
+		jecxz ending;
 
 	for01:
 
 		inc counter;
 
+		inc j;
+
 		loop for01;
+
+	ending:
+		nop;
 
 	}
 
 	printf("counter is now %d.\n", counter);
+
 }
