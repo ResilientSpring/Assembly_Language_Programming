@@ -25,7 +25,10 @@ int main() {
 
 	__asm {
 
-		
+		mov k, 0;
+		mov counter, 0;
+
+
 
 	}
 
