@@ -28,8 +28,15 @@ int main() {
 		mov k, 0;
 		mov counter, 0;
 
+		mov ecx, 1;
 
+	for01:
+
+		inc counter;
+
+		loop for01;
 
 	}
 
+	printf("counter is now %d.\n", counter);
 }
