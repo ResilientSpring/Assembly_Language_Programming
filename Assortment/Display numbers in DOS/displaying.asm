@@ -27,13 +27,13 @@ main proc
     int 21h              ; Call DOS interrupt
 
 
-	mov eax, 0x80000000;  Put the address of PCI register to be accessed in eax.
+	mov eax, 80000000h;  Put the address of PCI register to be accessed in eax.
 
-	mov dx, 0x0CF8; Put the address port in dx.Since this is PCI, use 0xCF8 as the port to open access to the device.
+	mov dx, 0CF8h; Put the address port in dx.Since this is PCI, use 0xCF8 as the port to open access to the device.
 
 	out dx, eax;  Send the PCI address port to the I / O space of the processor.
 
-	mov dx, 0x0CFC; Put the data port in dx.Since this is PCI, use 0xCFC as the data port to communicate with the device.
+	mov dx, 0CFCh; Put the data port in dx.Since this is PCI, use 0xCFC as the data port to communicate with the device.
 
 	in eax, dx;  Put into eax the data that was read from the PCI device.
 
