@@ -23,24 +23,20 @@ int main() {
         mov ecx, 10;
 
     for01:
-
-        mov i, 0;  i = 0
-            push ecx;
+        
+        push ecx;
 
         mov ecx, 10;
 
     for02:
 
-        mov j, 0;  j = 0
-            push ecx;
+        push ecx;
 
         mov ecx, 10;
 
     for03:
 
-        mov k, 0;  k = 0
-
-            mov eax, a;
+        mov eax, a;
         add eax, i;
         add eax, j;
         add eax, k;
