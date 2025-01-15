@@ -20,7 +20,7 @@ int main() {
 
         mov b, 0;
 
-        mov ecx, 10;
+        mov ecx, 10;  i < 10;
 
     for01:
 
