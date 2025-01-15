@@ -46,6 +46,8 @@ int main() {
         add eax, j;
         add eax, k;
 
+        mov b, eax;
+
         loop for03;
 
         pop ecx;
