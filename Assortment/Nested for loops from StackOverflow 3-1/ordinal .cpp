@@ -18,14 +18,15 @@ int main() {
 
     __asm {
 
-        mov eax, 0;
+        mov b, 0;
 
         mov ecx, 10;
 
     for01:
 
         mov i, 0;  i = 0
-            push ecx;
+        
+        push ecx;
 
         mov ecx, 10;
 
