@@ -57,7 +57,7 @@ int main() {
         loop for02;
 
         inc i;      i++;
-        pop ecx;
+        pop ecx;    Restore outer loop counter.
 
         loop for01;
 
