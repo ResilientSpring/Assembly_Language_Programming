@@ -26,7 +26,7 @@ int main() {
 
         mov i, 0;     i = 0
         
-        push ecx;     Save the loop count of for01.
+        push ecx;             Save the loop count of for01.
 
         mov ecx, 9;   j < 9;  Set the loop count of for02.
 
@@ -34,7 +34,7 @@ int main() {
 
         mov j, 0;     j = 0
 
-        push ecx;
+        push ecx;             Save the loop count of for02.
 
         mov ecx, 10;
 
