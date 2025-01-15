@@ -36,7 +36,7 @@ int main() {
 
         push ecx;             Save the loop count of for02.
 
-        mov ecx, 10;
+        mov ecx, 8;   k < 8;  Set the loop count of for03.
 
     for03:
 
