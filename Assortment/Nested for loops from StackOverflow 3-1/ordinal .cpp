@@ -48,6 +48,8 @@ int main() {
 
         mov b, eax;
 
+        inc k;      k++;
+
         loop for03;
 
         pop ecx;
