@@ -40,9 +40,9 @@ int main() {
 
     for03:
 
-        mov k, 0;  k = 0
+        mov k, 0;     k = 0
 
-            add eax, i;
+        add eax, i;
         add eax, j;
         add eax, k;
 
