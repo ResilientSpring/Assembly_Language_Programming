@@ -49,7 +49,7 @@ int main() {
         mov b, eax;
 
         inc k;      k++;
-
+        pop ecx;    Restore inner loop counter;
         loop for03;
 
         pop ecx;
