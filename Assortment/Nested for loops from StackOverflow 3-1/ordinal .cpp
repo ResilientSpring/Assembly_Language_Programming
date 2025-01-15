@@ -28,12 +28,12 @@ int main() {
         
         push ecx;
 
-        mov ecx, 10;
+        mov ecx, 9;   j < 9;  Set the loop count of for02.
 
     for02:
 
         mov j, 0;  j = 0
-            push ecx;
+        push ecx;
 
         mov ecx, 10;
 
