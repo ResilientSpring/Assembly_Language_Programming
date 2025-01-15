@@ -24,15 +24,16 @@ int main() {
 
     for01:
 
-        mov i, 0;  i = 0
+        mov i, 0;     i = 0
         
-        push ecx;
+        push ecx;     Save the loop count of for01.
 
         mov ecx, 9;   j < 9;  Set the loop count of for02.
 
     for02:
 
-        mov j, 0;  j = 0
+        mov j, 0;     j = 0
+
         push ecx;
 
         mov ecx, 10;
