@@ -52,6 +52,7 @@ int main() {
         pop ecx;    Restore inner loop counter;
         loop for03;
 
+        inc j;      j++;
         pop ecx;
 
         loop for02;
