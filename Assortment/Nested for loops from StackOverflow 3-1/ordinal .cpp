@@ -53,7 +53,7 @@ int main() {
         loop for03;
 
         inc j;      j++;
-        pop ecx;
+        pop ecx;    Restore middle loop counter.
 
         loop for02;
 
