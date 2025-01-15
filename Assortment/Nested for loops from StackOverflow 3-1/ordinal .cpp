@@ -56,6 +56,7 @@ int main() {
         pop ecx;    Restore middle loop counter.
         loop for02;
 
+        inc i;      i++;
         pop ecx;
 
         loop for01;
