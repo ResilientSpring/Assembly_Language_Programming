@@ -58,10 +58,7 @@ int main() {
 
         inc i;      i++;
         pop ecx;    Restore outer loop counter.
-
         loop for01;
-
-
     }
 
     printf("b is now %d.\n", b);
