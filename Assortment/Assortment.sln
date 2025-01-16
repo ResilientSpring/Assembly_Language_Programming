@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOv
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops from StackOverflow 3-2", "Nested for loops from StackOverflow 3-2\Nested for loops from StackOverflow 3-2.vcxproj", "{09A67FDE-8CF6-456A-B731-44E132FA2C06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops from StackOverflow 3-3", "Nested for loops form StackOverflow 3-4\Nested for loops form StackOverflow 3-4.vcxproj", "{96B41519-A7A1-4076-9B45-E40843934793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{09A67FDE-8CF6-456A-B731-44E132FA2C06}.Release|x64.Build.0 = Release|x64
 		{09A67FDE-8CF6-456A-B731-44E132FA2C06}.Release|x86.ActiveCfg = Release|Win32
 		{09A67FDE-8CF6-456A-B731-44E132FA2C06}.Release|x86.Build.0 = Release|Win32
+		{96B41519-A7A1-4076-9B45-E40843934793}.Debug|x64.ActiveCfg = Debug|x64
+		{96B41519-A7A1-4076-9B45-E40843934793}.Debug|x64.Build.0 = Debug|x64
+		{96B41519-A7A1-4076-9B45-E40843934793}.Debug|x86.ActiveCfg = Debug|Win32
+		{96B41519-A7A1-4076-9B45-E40843934793}.Debug|x86.Build.0 = Debug|Win32
+		{96B41519-A7A1-4076-9B45-E40843934793}.Release|x64.ActiveCfg = Release|x64
+		{96B41519-A7A1-4076-9B45-E40843934793}.Release|x64.Build.0 = Release|x64
+		{96B41519-A7A1-4076-9B45-E40843934793}.Release|x86.ActiveCfg = Release|Win32
+		{96B41519-A7A1-4076-9B45-E40843934793}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
