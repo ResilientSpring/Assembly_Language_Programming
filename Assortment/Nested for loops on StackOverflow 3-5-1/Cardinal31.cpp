@@ -36,11 +36,11 @@ int main() {
 
             push ecx;             Save the loop count of for02.
 
+            mov k, 0;     k = 0
             mov ecx, 8;   k < 8;  Set the loop count of for03.
 
             for03:
 
-        mov k, 0;     k = 0
 
             push ecx;     Even for03 is the innermost loop, push is still required.
 
