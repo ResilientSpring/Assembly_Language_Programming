@@ -9,6 +9,8 @@
     j sdword ?;
     k sdword ?;
 
+    b sdword ?;
+
 .code
 
 main proc
@@ -36,6 +38,8 @@ main proc
     for03:
 
         mov k, 0;     k = 0
+
+        push ecx;             Save the loop count of for03.
 
         add eax, i;
         add eax, j;
