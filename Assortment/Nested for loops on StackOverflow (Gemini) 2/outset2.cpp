@@ -42,7 +42,7 @@ int main() {
             mov ax, bx; Move i(BX) to AX
             add ax, si; Add j(SI) to AX
             add ax, di; Add k(DI) to AX
-            movzx b, ax; Store the result in 'b'
+            movsx b, ax; Store the result in 'b'
 
             inc di; Increment k
             pop cx; Restore inner loop counter
