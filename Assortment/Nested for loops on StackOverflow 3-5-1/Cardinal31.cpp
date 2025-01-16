@@ -28,11 +28,11 @@ int main() {
 
             push ecx;             Save the loop count of for01.
 
+            mov j, 0;     j = 0
             mov ecx, 9;   j < 9;  Set the loop count of for02.
 
             for02:
 
-        mov j, 0;     j = 0
 
             push ecx;             Save the loop count of for02.
 
@@ -46,20 +46,24 @@ int main() {
 
             mov eax, i;   Because eax contains arbitrary value as it has not been initialized, mov should be used.
             add eax, j;
-        add eax, k;
+            add eax, k;
 
-        mov b, eax;
+            mov b, eax;
 
-        inc k;      k++;
-        pop ecx;    Restore inner loop counter;
+            inc k;      k++;
 
-        loop for03;
+            pop ecx;    Restore inner loop counter;
+            loop for03;
+
+            jmp for02;
 
         inc j;      j++;
+
         pop ecx;    Restore middle loop counter.
             loop for02;
 
         inc i;      i++;
+
         pop ecx;    Restore outer loop counter.
             loop for01;
     }
