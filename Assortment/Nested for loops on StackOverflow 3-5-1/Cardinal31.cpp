@@ -20,11 +20,11 @@ int main() {
 
         mov b, 0;
 
+        mov i, 0;     i = 0
         mov ecx, 10;  i < 10; Set the loop count of for01.
 
             for01:
 
-        mov i, 0;     i = 0
 
             push ecx;             Save the loop count of for01.
 
