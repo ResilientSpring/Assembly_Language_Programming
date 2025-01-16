@@ -30,38 +30,38 @@ int main() {
 
             mov ecx, 9;   j < 9;  Set the loop count of for02.
 
-        for02:
+            for02:
 
-            mov j, 0;     j = 0
+                mov j, 0;     j = 0
 
-            push ecx;             Save the loop count of for02.
+                push ecx;             Save the loop count of for02.
 
-            mov ecx, 8;   k < 8;  Set the loop count of for03.
+                mov ecx, 8;   k < 8;  Set the loop count of for03.
 
-        for03:
+                for03:
 
-            mov k, 0;     k = 0
+                    mov k, 0;     k = 0
 
-            push ecx;     Even for03 is the innermost loop, push is still required.
+                    push ecx;     Even for03 is the innermost loop, push is still required.
 
-            mov eax, i;   Because eax contains arbitrary value as it has not been initialized, mov should be used.
-            add eax, j;
-            add eax, k;
+                    mov eax, i;   Because eax contains arbitrary value as it has not been initialized, mov should be used.
+                    add eax, j;
+                    add eax, k;
 
-            mov b, eax;
+                    mov b, eax;
 
-        inc k;      k++;
-        pop ecx;    Restore inner loop counter;
+                    inc k;      k++;
+                    pop ecx;    Restore inner loop counter;
 
-        loop for03;
+                loop for03;
 
-        inc j;      j++;
-        pop ecx;    Restore middle loop counter.
+                inc j;      j++;
+                pop ecx;    Restore middle loop counter.
             loop for02;
 
         inc i;      i++;
         pop ecx;    Restore outer loop counter.
-            loop for01;
+        loop for01;
     }
 
     printf("b is now %d.\n", b);
