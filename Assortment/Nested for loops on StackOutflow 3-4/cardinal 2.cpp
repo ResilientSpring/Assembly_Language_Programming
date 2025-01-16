@@ -44,11 +44,11 @@ int main() {
 
             push ecx;     Even for03 is the innermost loop, push is still required.
 
-        mov eax, i;       Because eax has not been initialized, 
-        add eax, j;
-        add eax, k;
+            mov eax, i;   Because eax contains arbitrary value as it has not been initialized, mov should be used. 
+            add eax, j;
+            add eax, k;
 
-        mov b, eax;
+            mov b, eax;
 
         inc k;      k++;
         pop ecx;    Restore inner loop counter;
