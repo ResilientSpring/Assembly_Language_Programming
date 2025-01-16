@@ -20,13 +20,15 @@ int main() {
 
 
 		; Outer loop(i)
+		
 		mov cx, 10; Initialize outer loop counter(i) to 10
+		
 		outer_loop:
 
 		push cx; Save outer loop counter
 			mov bx, 0; Initialize i to 0. BX will represent i.
 
-			; Middle loop(j)
+		; Middle loop(j)
 			mov cx, 9; Initialize middle loop counter(j) to 9
 			middle_loop:
 		push cx; Save middle loop counter
