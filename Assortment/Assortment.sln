@@ -53,6 +53,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOv
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow (Gemini) 4", "Nested for loops on StackOverflow (Gemini) 4\Nested for loops on StackOverflow (Gemini) 4.vcxproj", "{D25BC41E-3C42-42EF-B10F-7636FE594901}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow 3-5", "Nested for loops on StackOverflow 3-5\Nested for loops on StackOverflow 3-5.vcxproj", "{CCF92D27-9859-4116-AB53-F75445F365BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested loops on StackOverFlow 3-6", "Nested loops on StackOverFlow 3-6\Nested loops on StackOverFlow 3-6.vcxproj", "{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow 3-5-1", "Nested for loops on StackOverflow 3-5-1\Nested for loops on StackOverflow 3-5-1.vcxproj", "{A2383AB5-263C-44BA-9F8B-E2A17455EA64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow 3-5-2", "Nested for loops on StackOverflow 3-5-2\Nested for loops on StackOverflow 3-5-2.vcxproj", "{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +269,38 @@ Global
 		{D25BC41E-3C42-42EF-B10F-7636FE594901}.Release|x64.Build.0 = Release|x64
 		{D25BC41E-3C42-42EF-B10F-7636FE594901}.Release|x86.ActiveCfg = Release|Win32
 		{D25BC41E-3C42-42EF-B10F-7636FE594901}.Release|x86.Build.0 = Release|Win32
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Debug|x64.ActiveCfg = Debug|x64
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Debug|x64.Build.0 = Debug|x64
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Debug|x86.Build.0 = Debug|Win32
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Release|x64.ActiveCfg = Release|x64
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Release|x64.Build.0 = Release|x64
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Release|x86.ActiveCfg = Release|Win32
+		{CCF92D27-9859-4116-AB53-F75445F365BE}.Release|x86.Build.0 = Release|Win32
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Debug|x64.ActiveCfg = Debug|x64
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Debug|x64.Build.0 = Debug|x64
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Debug|x86.Build.0 = Debug|Win32
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Release|x64.ActiveCfg = Release|x64
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Release|x64.Build.0 = Release|x64
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Release|x86.ActiveCfg = Release|Win32
+		{F59F232A-60A6-4D7B-BD77-B439BC9B40DB}.Release|x86.Build.0 = Release|Win32
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Debug|x64.ActiveCfg = Debug|x64
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Debug|x64.Build.0 = Debug|x64
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Debug|x86.ActiveCfg = Debug|Win32
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Debug|x86.Build.0 = Debug|Win32
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Release|x64.ActiveCfg = Release|x64
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Release|x64.Build.0 = Release|x64
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Release|x86.ActiveCfg = Release|Win32
+		{A2383AB5-263C-44BA-9F8B-E2A17455EA64}.Release|x86.Build.0 = Release|Win32
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Debug|x64.ActiveCfg = Debug|x64
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Debug|x64.Build.0 = Debug|x64
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Debug|x86.Build.0 = Debug|Win32
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Release|x64.ActiveCfg = Release|x64
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Release|x64.Build.0 = Release|x64
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Release|x86.ActiveCfg = Release|Win32
+		{8F34B3BE-9A18-4A54-BBBA-4C7C08CF3722}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
