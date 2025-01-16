@@ -22,7 +22,7 @@ int main() {
 
         mov ecx, 10;  i < 10; Set the loop count of for01.
 
-         for01:
+        for01:
 
             mov i, 0;     i = 0
 
@@ -30,7 +30,7 @@ int main() {
 
             mov ecx, 9;   j < 9;  Set the loop count of for02.
 
-         for02:
+        for02:
 
             mov j, 0;     j = 0
 
@@ -44,7 +44,7 @@ int main() {
 
             push ecx;     Even for03 is the innermost loop, push is still required.
 
-        add eax, i;
+        mov eax, i;       Because eax has not been initialized, 
         add eax, j;
         add eax, k;
 
