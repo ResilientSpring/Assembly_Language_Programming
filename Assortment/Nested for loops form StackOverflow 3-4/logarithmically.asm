@@ -41,7 +41,7 @@ main proc
 
         push ecx;             Save the loop count of for03.
 
-        add eax, i;
+        mov eax, i;
         add eax, j;
         add eax, k;
 
