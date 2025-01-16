@@ -12,7 +12,7 @@ int main() {
         }
     }
 
-    printf("eax is now %d.\n", a);
+    printf("a is now %d.\n", a);
 
     int i, j, k;
 
