@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35706.149
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solving operand size conflict", "Solving operand size conflict\Solving operand size conflict.vcxproj", "{51BD5B54-525E-4668-AFDD-7A39044DA3B4}"
 EndProject
@@ -44,6 +44,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops from StackOverflow 3-3", "Nested for loops form StackOverflow 3-4\Nested for loops form StackOverflow 3-4.vcxproj", "{96B41519-A7A1-4076-9B45-E40843934793}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow 3-4", "Nested for loops on StackOutflow 3-4\Nested for loops on StackOutflow 3-4.vcxproj", "{DBC4AE8E-2FF0-4AF6-AF28-7CC10F83FDBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow (Gemini)", "Nested for loops on StackOverflow (Gemini)\Nested for loops on StackOverflow (Gemini).vcxproj", "{B913D0E6-2769-4886-B349-0DE391AC6CAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nested for loops on StackOverflow (Gemini) 2", "Nested for loops on StackOverflow (Gemini) 2\Nested for loops on StackOverflow (Gemini) 2.vcxproj", "{A8D5A7DE-EF06-42CC-8000-E15945375123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +225,22 @@ Global
 		{DBC4AE8E-2FF0-4AF6-AF28-7CC10F83FDBD}.Release|x64.Build.0 = Release|x64
 		{DBC4AE8E-2FF0-4AF6-AF28-7CC10F83FDBD}.Release|x86.ActiveCfg = Release|Win32
 		{DBC4AE8E-2FF0-4AF6-AF28-7CC10F83FDBD}.Release|x86.Build.0 = Release|Win32
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Debug|x64.ActiveCfg = Debug|x64
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Debug|x64.Build.0 = Debug|x64
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Debug|x86.Build.0 = Debug|Win32
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Release|x64.ActiveCfg = Release|x64
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Release|x64.Build.0 = Release|x64
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Release|x86.ActiveCfg = Release|Win32
+		{B913D0E6-2769-4886-B349-0DE391AC6CAA}.Release|x86.Build.0 = Release|Win32
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Debug|x64.ActiveCfg = Debug|x64
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Debug|x64.Build.0 = Debug|x64
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Debug|x86.Build.0 = Debug|Win32
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Release|x64.ActiveCfg = Release|x64
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Release|x64.Build.0 = Release|x64
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Release|x86.ActiveCfg = Release|Win32
+		{A8D5A7DE-EF06-42CC-8000-E15945375123}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
