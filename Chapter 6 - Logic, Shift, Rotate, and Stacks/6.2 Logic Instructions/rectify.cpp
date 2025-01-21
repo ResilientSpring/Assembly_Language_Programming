@@ -21,7 +21,13 @@ int main() {
 
 
 		and eax, maskit;
+		jz end;
+		inc count;
+
+	end: nop;
 
 	}
+
+	printf("count is %d.\n", count);
 
 }
