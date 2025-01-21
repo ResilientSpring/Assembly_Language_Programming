@@ -15,9 +15,10 @@ int main() {
 
 		mov flag, 06eh;
 		mov maskit, 04h;
-		mov count, 0;
+		xor count, count;
 
 		mov eax, flag;
+
 
 		and eax, maskit;
 
