@@ -13,7 +13,11 @@ int main() {
 
 	__asm {
 
+		mov flag, 06eh;
+		mov maskit, 04h;
+		mov count, 0;
 
+		mov eax, flag;
 
 
 	}
