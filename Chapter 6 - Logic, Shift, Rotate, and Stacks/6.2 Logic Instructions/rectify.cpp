@@ -15,7 +15,7 @@ int main() {
 
 		mov flag, 06eh;
 		mov maskit, 04h;
-		xor count, count;   using xor eax, eax is faster than using mov eax, 0;
+		mov count, 0;
 
 		mov eax, flag;
 
