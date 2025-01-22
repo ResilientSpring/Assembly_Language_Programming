@@ -3,7 +3,7 @@
 int main() {
 
 	int count;
-	long long temp, config_address;
+	int temp, config_address;
 
 	__asm {
 
