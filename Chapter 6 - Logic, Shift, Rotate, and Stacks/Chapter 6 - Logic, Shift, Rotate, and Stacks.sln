@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on 2", "How many devices are on 2\How many devices are on 2.vcxproj", "{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on 3", "How many devices are on 3\How many devices are on 3.vcxproj", "{D458BE12-FA57-414B-9712-2345D05CBC4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x64.Build.0 = Release|x64
 		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x86.ActiveCfg = Release|Win32
 		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x86.Build.0 = Release|Win32
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Debug|x64.ActiveCfg = Debug|x64
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Debug|x64.Build.0 = Debug|x64
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Debug|x86.Build.0 = Debug|Win32
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Release|x64.ActiveCfg = Release|x64
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Release|x64.Build.0 = Release|x64
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Release|x86.ActiveCfg = Release|Win32
+		{D458BE12-FA57-414B-9712-2345D05CBC4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
