@@ -3,7 +3,7 @@
 int main() {
 
 	int count;
-	unsigned int temp;
+	unsigned char temp;
 
 	__asm {
 		
