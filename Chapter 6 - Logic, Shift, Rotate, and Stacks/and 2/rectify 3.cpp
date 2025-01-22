@@ -33,7 +33,7 @@ int main() {
 	}
 
 	printf("count is %d.\n", count);
-	printf("flag is %x.\n", flag);
-	printf("maskit is %x.\n", maskit);
+	printf("flag is 0x0%x.\n", flag);
+	printf("maskit is 0x0%x.\n", maskit);
 
 }
