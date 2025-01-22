@@ -8,9 +8,10 @@ int main() {
 	__asm {
 
 		mov count, 0;
-		mov temp, al;
 
 		mov ecx, 8;
+		mov temp, al;
+
 
 	for01:
 
