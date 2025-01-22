@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "and to clear a bit (set a b
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.3 Logical Shift Instructions", "6.3 Logical Shift Instructions\6.3 Logical Shift Instructions.vcxproj", "{46D91B20-85F1-4502-9A6F-4D6C2E296701}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.3 Logical Shift Instructions 2", "6.3 Logical Shift Instructions 2\6.3 Logical Shift Instructions 2.vcxproj", "{4E2FAC76-003B-4DBE-B20A-514CABD500C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x64.Build.0 = Release|x64
 		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x86.ActiveCfg = Release|Win32
 		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x86.Build.0 = Release|Win32
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Debug|x64.ActiveCfg = Debug|x64
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Debug|x64.Build.0 = Debug|x64
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Debug|x86.Build.0 = Debug|Win32
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Release|x64.ActiveCfg = Release|x64
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Release|x64.Build.0 = Release|x64
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Release|x86.ActiveCfg = Release|Win32
+		{4E2FAC76-003B-4DBE-B20A-514CABD500C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
