@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.3 Logical Shift Instructi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test if MASM support 0110b-alike notation", "Test if MASM support 0110b-alike notation\Test if MASM support 0110b-alike notation.vcxproj", "{BA3BEA19-CA31-4FBC-BF15-FEDE5C907F41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on", "How many devices are on\How many devices are on.vcxproj", "{109DCD07-0E12-41B3-92CB-150714531C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{BA3BEA19-CA31-4FBC-BF15-FEDE5C907F41}.Release|x64.Build.0 = Release|x64
 		{BA3BEA19-CA31-4FBC-BF15-FEDE5C907F41}.Release|x86.ActiveCfg = Release|Win32
 		{BA3BEA19-CA31-4FBC-BF15-FEDE5C907F41}.Release|x86.Build.0 = Release|Win32
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Debug|x64.ActiveCfg = Debug|x64
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Debug|x64.Build.0 = Debug|x64
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Debug|x86.Build.0 = Debug|Win32
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x64.ActiveCfg = Release|x64
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x64.Build.0 = Release|x64
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x86.ActiveCfg = Release|Win32
+		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
