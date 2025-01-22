@@ -37,5 +37,7 @@ int main() {
 	printf("count is %d.\n", count);
 	printf("flag is %x.\n", repercussion);
 	printf("maskit is %x.\n", ramification);
+	printf("flag is %a.\n", repercussion);
+	printf("maskit is %a.\n", ramification);
 
 }
