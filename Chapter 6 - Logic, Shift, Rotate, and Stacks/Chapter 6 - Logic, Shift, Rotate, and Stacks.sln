@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test if MASM support 0110b-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on", "How many devices are on\How many devices are on.vcxproj", "{109DCD07-0E12-41B3-92CB-150714531C2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on 2", "How many devices are on 2\How many devices are on 2.vcxproj", "{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x64.Build.0 = Release|x64
 		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x86.ActiveCfg = Release|Win32
 		{109DCD07-0E12-41B3-92CB-150714531C2F}.Release|x86.Build.0 = Release|Win32
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Debug|x64.ActiveCfg = Debug|x64
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Debug|x64.Build.0 = Debug|x64
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Debug|x86.Build.0 = Debug|Win32
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x64.ActiveCfg = Release|x64
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x64.Build.0 = Release|x64
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x86.ActiveCfg = Release|Win32
+		{EEDADF2C-B5C2-4A86-B02B-9006E46006B3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
