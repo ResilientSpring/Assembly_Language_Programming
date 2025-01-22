@@ -14,9 +14,20 @@ int main() {
 
 	for01:
 
-		mov 
+		mov ah, al;
+		and, 00000001b;
+		jz ramification;
+
+		inc count;
+
+	ramification:
+		shr al, 1;
+		loop for01;
+
+		mov al, temp;
 
 	}
 
+	printf("count is %d.\n", count);
 
 }
