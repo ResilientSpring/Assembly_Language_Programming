@@ -26,7 +26,6 @@ int main() {
 		shr eax, 1;
 		loop for01;
 
-		mov eax, temp;
 
 	}
 
