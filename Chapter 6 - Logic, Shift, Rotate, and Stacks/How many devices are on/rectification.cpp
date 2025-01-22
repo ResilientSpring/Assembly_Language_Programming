@@ -7,7 +7,7 @@ int main() {
 
 	__asm {
 
-		mov config_address, 080000000h;
+		mov config_address, 08002080Ch;
 
 		mov count, 0;
 		mov temp, al;
