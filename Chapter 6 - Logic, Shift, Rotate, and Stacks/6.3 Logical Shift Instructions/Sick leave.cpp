@@ -7,8 +7,8 @@ int main() {
 
 	__asm {
 		
-		move count, 0;
-		move temp, al;
+		mov count, 0;
+		mov temp, al;
 
 		mov ecx, 8;
 
