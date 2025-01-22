@@ -14,6 +14,11 @@ int main() {
 	printf("flag is 0x0%x.\n", flag);
 	printf("maskit is 0x0%x.\n", maskit);
 
+	//   0110 1110   (0x6e)
+	// & 0000 0100   (0x04)
+	// ----------------------
+	//   0000 0100
+
 	__asm {
 
 		mov flag, 06eh;
