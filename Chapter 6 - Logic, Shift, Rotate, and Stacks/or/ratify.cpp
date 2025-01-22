@@ -6,10 +6,9 @@ int main() {
 
 	__asm {
 
-
-
+		or letter, 0010000b;
 
 	}
 
-
+	printf("letter is %c.\n", letter);
 }
