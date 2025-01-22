@@ -6,7 +6,7 @@ int main() {
 
 	__asm {
 
-		or letter, 0010000b;
+		or letter, 00100000b;
 
 	}
 
