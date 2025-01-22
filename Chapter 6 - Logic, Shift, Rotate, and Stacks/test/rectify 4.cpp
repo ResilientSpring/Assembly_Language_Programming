@@ -39,6 +39,7 @@ int main() {
 
 	}
 
+	printf("\n");
 	printf("count is %d.\n", count);
 	printf("flag is 0x0%x.\n", flag);
 	printf("maskit is 0x0%x.\n", maskit);
