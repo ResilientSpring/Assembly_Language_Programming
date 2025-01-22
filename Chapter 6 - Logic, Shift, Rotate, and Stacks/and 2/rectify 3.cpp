@@ -29,7 +29,7 @@ int main() {
 		mov eax, flag;
 
 
-		and eax, maskit;
+		test eax, maskit;
 		jz end;
 		inc count;
 
