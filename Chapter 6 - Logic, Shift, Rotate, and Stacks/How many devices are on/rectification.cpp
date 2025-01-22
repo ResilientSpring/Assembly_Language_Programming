@@ -9,23 +9,25 @@ int main() {
 
 		mov config_address, 08002080Ch;
 
-		mov count, 0;
-		mov temp, al;
+		mov eax, config_address;
 
-		mov ecx, 8;
+		mov count, 0;
+		mov temp, eax;
+
+		mov ecx, 32;
 
 	for01:
 
-		test al, 00000001b;
+		test eax, 00000001b;
 		jz ramification;
 
 		inc count;
 
 	ramification:
-		shr al, 1;
+		shr eax, 1;
 		loop for01;
 
-		mov al, temp;
+		mov eax, temp;
 
 	}
 
