@@ -2,7 +2,14 @@
 
 int main() {
 
+	char letter = 'A';
 
+	__asm {
+
+
+
+
+	}
 
 
 }
