@@ -15,7 +15,7 @@ int main() {
 	for01:
 
 		mov ah, al;
-		and, 00000001b;
+		and ah, 00000001b;
 		jz ramification;
 
 		inc count;
