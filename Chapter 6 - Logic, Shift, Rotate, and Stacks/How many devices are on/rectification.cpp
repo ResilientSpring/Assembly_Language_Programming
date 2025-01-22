@@ -2,8 +2,8 @@
 
 int main() {
 
-	int count, config_address;
-	unsigned char temp;
+	int count;
+	long long temp, config_address;
 
 	__asm {
 
