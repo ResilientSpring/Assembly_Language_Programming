@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "or", "or\or.vcxproj", "{E2F
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "and to clear a bit (set a bit to 0)", "and to clear a bit (set a bit to 0)\and to clear a bit (set a bit to 0).vcxproj", "{87BFA570-A5F3-4944-B9B0-B315CA2AE63F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.3 Logical Shift Instructions", "6.3 Logical Shift Instructions\6.3 Logical Shift Instructions.vcxproj", "{46D91B20-85F1-4502-9A6F-4D6C2E296701}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{87BFA570-A5F3-4944-B9B0-B315CA2AE63F}.Release|x64.Build.0 = Release|x64
 		{87BFA570-A5F3-4944-B9B0-B315CA2AE63F}.Release|x86.ActiveCfg = Release|Win32
 		{87BFA570-A5F3-4944-B9B0-B315CA2AE63F}.Release|x86.Build.0 = Release|Win32
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Debug|x64.ActiveCfg = Debug|x64
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Debug|x64.Build.0 = Debug|x64
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Debug|x86.ActiveCfg = Debug|Win32
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Debug|x86.Build.0 = Debug|Win32
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x64.ActiveCfg = Release|x64
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x64.Build.0 = Release|x64
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x86.ActiveCfg = Release|Win32
+		{46D91B20-85F1-4502-9A6F-4D6C2E296701}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
