@@ -30,3 +30,6 @@ int binary_do_decimal(const string& input)
     }
     return output;
 }
+
+
+// Source: https://cplusplus.com/forum/general/236095/
