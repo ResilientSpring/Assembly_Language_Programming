@@ -17,17 +17,22 @@ int main() {
 		push ecx;
 		push edx;
 
-		pop a;
-		pop b;
-		pop c;
-		pop d;
+		pop eax;
+		pop ebx;
+		pop ecx;
+		pop edx;
+
+		mov a, eax;
+		mov b, ebx;
+		mov c, ecx;
+		mov d, edx;
 
 	}
 
-	printf("a now contains %d.\n", a);
-	printf("b now contains %d.\n", b);
-	printf("c now contains %d.\n", c);
-	printf("d now contains %d.\n", d);
+	printf("eax now contains %d.\n", a);
+	printf("ebx now contains %d.\n", b);
+	printf("ecx now contains %d.\n", c);
+	printf("edx now contains %d.\n", d);
 
 
 }
