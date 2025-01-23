@@ -14,10 +14,10 @@ int main() {
 
 		push eax;
 		push ebx;
-		push ecx; 
+		push ecx;
 		push edx;
 
-		pop a;             
+		pop a;
 		pop b;
 		pop c;
 		pop d;
@@ -31,6 +31,3 @@ int main() {
 
 
 }
-
-// Reference:
-// 1. https://github.com/HJLebbink/asm-dude/wiki/POP
