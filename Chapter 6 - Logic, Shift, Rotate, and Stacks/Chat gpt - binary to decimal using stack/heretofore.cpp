@@ -1,3 +1,20 @@
+/*
+* 
+* How to convert a number from binary to decimal using a stack in c?
+
+ChatGPT said:
+
+To convert a binary number to decimal using a stack in C, we can take the following approach:
+
+1. Push the binary digits (bits) onto the stack, one by one.
+
+2. Pop the digits from the stack and calculate their decimal value by multiplying each digit by the corresponding power of 2.
+
+Here's a simple C program to do that:
+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
