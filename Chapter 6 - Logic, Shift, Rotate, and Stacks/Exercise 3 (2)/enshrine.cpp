@@ -16,9 +16,28 @@ int main() {
 		mov eax, 4;
 		push eax;
 
-		
+		pop eax;
+
+		mov a, eax;
+
+		pop eax;
+
+		mov b, eax;
+
+		pop eax;
+
+		mov c, eax;
+
+		pop eax;
+
+		mov d, eax;
 
 	}
 
+
+	printf("a now contains %d.\n", a);
+	printf("b now contains %d.\n", b);
+	printf("c now contains %d.\n", c);
+	printf("d now contains %d.\n", d);
 
 }
