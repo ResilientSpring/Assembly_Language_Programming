@@ -21,5 +21,6 @@ int main() {
 		loop for01;
 	}
 
+	printf("count is %d.\n", count);
 
 }
