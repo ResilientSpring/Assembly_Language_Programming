@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "How many devices are on 4",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 Rotate Instructions", "6.5 Rotate Instructions\6.5 Rotate Instructions.vcxproj", "{D239FB18-B983-4633-8D8F-E81E1652CAF4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 Rotate Instructions 2", "6.5 Rotate Instructions 2\6.5 Rotate Instructions 2.vcxproj", "{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{D239FB18-B983-4633-8D8F-E81E1652CAF4}.Release|x64.Build.0 = Release|x64
 		{D239FB18-B983-4633-8D8F-E81E1652CAF4}.Release|x86.ActiveCfg = Release|Win32
 		{D239FB18-B983-4633-8D8F-E81E1652CAF4}.Release|x86.Build.0 = Release|Win32
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Debug|x64.ActiveCfg = Debug|x64
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Debug|x64.Build.0 = Debug|x64
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Debug|x86.Build.0 = Debug|Win32
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Release|x64.ActiveCfg = Release|x64
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Release|x64.Build.0 = Release|x64
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Release|x86.ActiveCfg = Release|Win32
+		{3D0BB151-72A0-4FE4-9470-B8F037E71EBB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
