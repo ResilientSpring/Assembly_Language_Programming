@@ -2,7 +2,7 @@
 
 int main() {
 
-	int count;
+	int count, a;
 
 	__asm {
 
@@ -24,7 +24,10 @@ int main() {
 		loop for01;
 
 		pop eax;
+
+		mov a, eax;
 	}
 
-
+	printf("eax is restored to %d.\n", a);
+	printf("count is now %d.\n", count);
 }
