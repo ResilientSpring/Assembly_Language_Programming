@@ -6,7 +6,7 @@ int main() {
 
 	__asm {
 
-		mov eax, 08002080Ch;
+		mov eax, 08002000Ch;
 
 		mov count, 0;
 
