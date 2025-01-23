@@ -16,12 +16,14 @@ int main() {
 
 	for01:
 		test al, 00000001b;
-		jz
+		jz ramification;
+		inc count;
 
-			ramification:
+	ramification:
+		shr al, 1;
+		loop for01;
 
-
-
+		pop eax;
 	}
 
 
