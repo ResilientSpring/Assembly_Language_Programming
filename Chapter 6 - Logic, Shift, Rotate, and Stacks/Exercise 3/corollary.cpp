@@ -17,7 +17,7 @@ int main() {
 		push ecx; 
 		push edx;
 
-		pop a;             
+		pop a;        Pop top of stack into a, and then increment stack pointer.[1]
 		pop b;
 		pop c;
 		pop d;
