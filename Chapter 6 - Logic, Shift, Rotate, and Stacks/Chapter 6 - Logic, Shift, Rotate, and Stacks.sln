@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 Rotate Instructions 2",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.5 Rotate Instructions 3", "6.5 Rotate Instructions 3\6.5 Rotate Instructions 3.vcxproj", "{F32E63E4-BF64-4034-B4F2-8B9A456236C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.4 Arithmetic Shift Instructions", "6.4 Arithmetic Shift Instructions\6.4 Arithmetic Shift Instructions.vcxproj", "{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{F32E63E4-BF64-4034-B4F2-8B9A456236C1}.Release|x64.Build.0 = Release|x64
 		{F32E63E4-BF64-4034-B4F2-8B9A456236C1}.Release|x86.ActiveCfg = Release|Win32
 		{F32E63E4-BF64-4034-B4F2-8B9A456236C1}.Release|x86.Build.0 = Release|Win32
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Debug|x64.ActiveCfg = Debug|x64
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Debug|x64.Build.0 = Debug|x64
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Debug|x86.Build.0 = Debug|Win32
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Release|x64.ActiveCfg = Release|x64
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Release|x64.Build.0 = Release|x64
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Release|x86.ActiveCfg = Release|Win32
+		{BA842BDB-F59E-4584-8DD0-545C62CA7C2F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
