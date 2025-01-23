@@ -8,14 +8,15 @@ int main() {
 	__asm {
 
 		mov eax, 1;
-		mov ebx, 2;
-		mov ecx, 3;
-		mov edx, 4;
-
 		push eax;
-		push ebx;
-		push ecx; 
-		push edx;
+		mov eax, 2;
+		push eax;
+		mov eax, 3;
+		push eax;
+		mov eax, 4;
+		push eax;
+
+		
 
 	}
 
