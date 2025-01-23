@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample - Decimal  to binary
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample - Binary to decimal using Stack", "Sample - Binary to decimal using Stack\Sample - Binary to decimal using Stack.vcxproj", "{791E48D2-B8B8-434A-947A-4C4F7D6BEB16}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chat gpt - binary to decimal using stack", "Chat gpt - binary to decimal using stack\Chat gpt - binary to decimal using stack.vcxproj", "{7B0AA503-4C10-4497-9C05-F59143D097F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{791E48D2-B8B8-434A-947A-4C4F7D6BEB16}.Release|x64.Build.0 = Release|x64
 		{791E48D2-B8B8-434A-947A-4C4F7D6BEB16}.Release|x86.ActiveCfg = Release|Win32
 		{791E48D2-B8B8-434A-947A-4C4F7D6BEB16}.Release|x86.Build.0 = Release|Win32
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Debug|x64.ActiveCfg = Debug|x64
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Debug|x64.Build.0 = Debug|x64
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Debug|x86.Build.0 = Debug|Win32
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Release|x64.ActiveCfg = Release|x64
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Release|x64.Build.0 = Release|x64
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Release|x86.ActiveCfg = Release|Win32
+		{7B0AA503-4C10-4497-9C05-F59143D097F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
