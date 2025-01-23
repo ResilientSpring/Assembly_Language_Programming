@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chat gpt - binary to decima
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.6 Stack Operations", "6.6 Stack Operations\6.6 Stack Operations.vcxproj", "{FCCA7070-AECC-4218-8139-195BDFD99B6B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise 3", "Exercise 3\Exercise 3.vcxproj", "{AEAF1EFB-104D-4E49-A336-1A284175F3E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{FCCA7070-AECC-4218-8139-195BDFD99B6B}.Release|x64.Build.0 = Release|x64
 		{FCCA7070-AECC-4218-8139-195BDFD99B6B}.Release|x86.ActiveCfg = Release|Win32
 		{FCCA7070-AECC-4218-8139-195BDFD99B6B}.Release|x86.Build.0 = Release|Win32
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Debug|x64.ActiveCfg = Debug|x64
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Debug|x64.Build.0 = Debug|x64
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Debug|x86.Build.0 = Debug|Win32
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Release|x64.ActiveCfg = Release|x64
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Release|x64.Build.0 = Release|x64
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Release|x86.ActiveCfg = Release|Win32
+		{AEAF1EFB-104D-4E49-A336-1A284175F3E1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
