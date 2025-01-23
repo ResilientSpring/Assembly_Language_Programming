@@ -10,7 +10,9 @@ int main() {
 
 		shl num1, 3;
 
-		mov product, num1;
+		mov eax, num1;
+
+		mov product, eax;
 	}
 
 	printf("product is %d.\n", product);
