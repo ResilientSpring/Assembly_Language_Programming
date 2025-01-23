@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+
+	int count;
+
+	__asm {
+
+		mov eax, 99;
+
+		push eax;
+
+		mov count, 0;
+
+		mov ecx, 8;
+
+	for01:
+		test al, 00000001b;
+		jz
+
+			ramification:
+
+
+
+	}
+
+
+}
