@@ -12,6 +12,11 @@ int main() {
 		mov ecx, 3;
 		mov edx, 4;
 
+		push eax;
+		push ebx;
+		push ecx; 
+		push edx;
+
 
 	}
 
