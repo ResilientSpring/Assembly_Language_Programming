@@ -74,3 +74,23 @@ int main() {
     printf("Binary: %s\nDecimal: %d\n", binary, decimal);
     return 0;
 }
+
+/*
+
+How it works:
+Push binary digits to the stack: We take each digit of the binary string and push it onto the stack. Since we process the string from left to right, the most significant bit (MSB) ends up at the bottom of the stack.
+
+Pop and calculate the decimal: We then pop each bit from the stack, starting from the least significant bit (LSB). For each bit, we multiply it by the corresponding power of 2 (starting from 2^0) and add it to the final decimal result.
+
+Example:
+For the binary string 1101:
+
+The stack will store the binary digits in the order: 1, 1, 0, 1.
+We then calculate:
+1 * 2^3 = 8
+1 * 2^2 = 4
+0 * 2^1 = 0
+1 * 2^0 = 1
+The total decimal value will be 8 + 4 + 0 + 1 = 13.
+
+*/
