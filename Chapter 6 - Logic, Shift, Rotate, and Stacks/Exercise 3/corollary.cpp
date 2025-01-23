@@ -2,6 +2,9 @@
 
 int main() {
 
+
+	int a, b, c, d;
+
 	__asm {
 
 		mov eax, 1;
