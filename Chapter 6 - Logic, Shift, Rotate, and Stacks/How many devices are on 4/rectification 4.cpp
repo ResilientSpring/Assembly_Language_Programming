@@ -3,7 +3,6 @@
 int main() {
 
 	int count;
-	int temp;
 
 	__asm {
 
