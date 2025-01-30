@@ -16,4 +16,4 @@ main proc
 		ret
 
 main endp
-	 end
+end main
